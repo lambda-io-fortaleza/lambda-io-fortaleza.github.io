@@ -1,7 +1,7 @@
 {
-  "name": "lumberpack",
+  "name": "meetup-boilerplate",
   "version": "1.0.0",
-  "description": "A simple boilerplate to easily bootstrap projects with a bunch of cool technologies.",
+  "description": "A simple boilerplate to easily create beautiful sites for your meetups.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "karma start"
