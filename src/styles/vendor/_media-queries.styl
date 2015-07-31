@@ -1,22 +1,16 @@
-// Media Queries
-//––––––––––––––––––––––––––––––––––––––––––––––––––
+@media only screen and (max-width: 1024px)
+  .header
+    background-size auto 100%
 
-// Note: The best way to structure the use of media queries is to create the queries
-// near the relevant code. For example, if you wanted to change the styles for buttons
-// on small devices, paste the mobile query code up in the buttons section and style it
-// there.
-
-// Larger than mobile
-@media ($bp-larger-than-mobile) {}
-
-// Larger than phablet (also point when grid becomes active)
-@media ($bp-larger-than-phablet) {}
-
-// Larger than tablet
-@media ($bp-larger-than-tablet) {}
-
-// Larger than desktop
-@media ($bp-larger-than-desktop) {}
-
-// Larger than Desktop HD
-@media ($bp-larger-than-desktophd) {}
+@media only screen and (max-width: 480px)
+  /* Speakers */
+  .speaker-photo .photo
+    box-shadow 0 0 0 3px rgba(0, 0, 0, 0.07)
+  .speech-title
+    font-weight bolder
+  .speech-time
+    color #2b2b2b
+    background transparent
+    font-weight bolder
+  .github-link
+    display none
