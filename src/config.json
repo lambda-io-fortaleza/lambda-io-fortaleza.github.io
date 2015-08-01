@@ -1,9 +1,121 @@
 {
-  "name": "Lumberpack",
-  "description": "Lumberpack is a simple boilerplate to easily bootstrap projects with a bunch of cool technologies.",
-  "image": "img/logo.png",
-  "favicon": "img/favicon.png",
-  "url": "https://github.com/mabrasil/lumberpack",
-  "facebookType": "article",
-  "twitterType": "summary_large_image"
+   "about":{
+      "name":"Conference Example",
+      "edition":"Example Edition",
+      "description":"Lorem ipsum dolor sit amet.",
+      "date":"Lorem ipsum dolor sit amet.",
+      "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/about/logo.png",
+      "register":{
+         "link":"conf@example.com",
+         "price":"@example"
+      },
+      "location":{
+        "place":"Example University",
+        "address":"Example Avenue, 111",
+        "city":"Example City",
+        "state":"Example City",
+        "position":{
+           "lat":"-3.771020",
+           "lng":"-38.483531"
+        }
+      },
+      "contact":{
+         "email":"conf@example.com",
+         "twitter":"@example",
+         "facebook":"example.conf",
+         "github":"example.conf"
+      }
+   },
+
+   "speakers":[
+      {
+         "name":"Speaker 1",
+         "bio":"Lorem ipsum dolor sit amet.",
+         "photo":"http://devevents.github.io/conf-app-boilerplate/static/img/speakers/speaker.png",
+         "company":"Company 1",
+         "twitter":"example1"
+      },
+      {
+         "name":"Speaker 2",
+         "photo":"http://devevents.github.io/conf-app-boilerplate/static/img/speakers/speaker.png",
+         "bio":"Lorem ipsum dolor sit amet.",
+         "company":"Company 2",
+         "twitter":"example2"
+      }
+   ],
+
+   "schedule":[
+      {
+         "name":"Registration",
+         "time":{
+            "start":"9:00",
+            "finish":"10:00"
+         },
+         "type":"general",
+         "room":""
+      },
+      {
+         "name":"Talk 1",
+         "time":{
+            "start":"10:30",
+            "finish":"11:30"
+         },
+         "type":"talk",
+         "speakers":[
+            {
+               "name":"Speaker Example 1",
+               "image":"http://devevents.github.io/conf-app-boilerplate/static/img/speakers/speaker.png"
+            }
+         ],
+         "description":"Lorem ipsum dolor sit amet.",
+         "room":"Auditorium 1"
+      },
+      {
+         "name":"Close",
+         "time":{
+            "start":"18:00"
+         },
+         "type":"general",
+         "date":"day1"
+      }
+   ],
+
+   "partners":[
+      {
+         "name":"Partner 1",
+         "description":"Lorem ipsum dolor sit amet.",
+         "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+         "website":"www.sponsor1.com"
+      },
+      {
+         "name":"Partner 2",
+         "description":"Lorem ipsum dolor sit amet.",
+         "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+         "website":"www.sponsor2.com"
+      }
+   ],
+
+   "sponsors":[
+      {
+         "name":"Sponsor 1",
+         "description":"Lorem ipsum dolor sit amet.",
+         "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+         "website":"www.sponsor1.com",
+         "type":"gold"
+      },
+      {
+         "name":"Sponsor 1",
+         "description":"Lorem ipsum dolor sit amet.",
+         "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+         "website":"www.sponsor1.com",
+         "type":"silver"
+      },
+      {
+         "name":"Sponsor 1",
+         "description":"Lorem ipsum dolor sit amet.",
+         "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+         "website":"www.sponsor1.com",
+         "type":"bronze"
+      }
+   ]
 }
