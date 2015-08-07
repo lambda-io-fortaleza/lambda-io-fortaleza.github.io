@@ -1,0 +1,20 @@
+.section-sponsors {
+  .sponsor {
+    text-align: center;
+  }
+
+  .sponsor-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    img { max-width: 100%; }
+  }
+
+  .-tba .sponsor-image {
+    padding: 24px 0;
+    background: $placeholder-color;
+    display: block;
+    margin: 0 auto;
+  }
+
+}

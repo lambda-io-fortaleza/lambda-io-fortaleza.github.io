@@ -11,5 +11,13 @@
 @import "forms";
 @import "content";
 @import "nav";
+@import "section";
 
-@import "pages";
+@import "sections/header";
+@import "sections/hero";
+@import "sections/location";
+@import "sections/speakers";
+@import "sections/sponsors";
+@import "sections/schedule";
+@import "sections/organizers";
+@import "sections/footer";

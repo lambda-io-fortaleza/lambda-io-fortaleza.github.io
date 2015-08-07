@@ -1,0 +1,55 @@
+.section-hero {
+  color: $white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../img/amsterdam.jpg');
+
+  @include respond-larger(md) {
+    height: 100vh;
+    padding-bottom: $nav-height-lg;
+  }
+
+  @include respond-equal(sm) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../img/amsterdam_768.jpg');
+    height: 400px;
+    padding-top: $nav-height-lg;
+  }
+
+  .wrapper {
+    padding: 0;
+    height: 100%;
+  }
+
+  .header-link {
+    color: $white;
+  }
+
+  .header-logo-img {
+    width: 160px;
+    margin-bottom: $spacing-lg * 1.1;
+  }
+
+  .header-logo-text {
+    margin: $spacing-lg 0;
+    font-size: em(60);
+    text-shadow: 0 2px 0 transparentize( $black, 0.8 );
+  }
+
+  .header-details {
+    color: $white;
+  }
+
+  .header-location {
+    color: $red;
+  }
+
+  @include respond-larger(sm) {
+    .header-logo {
+      margin-top: 0;
+    }
+  }
+
+  @include respond-equal(sm) {
+    .header-logo-img {
+      margin-bottom: $spacing-sm;
+    }
+  }
+}

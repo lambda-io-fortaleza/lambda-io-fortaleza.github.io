@@ -1,0 +1,100 @@
+.section {
+  color: $dark-gray;
+
+  p {
+    margin-top: $spacing-lg;
+    margin-bottom: $spacing-lg;
+  }
+
+  .wrapper {
+    padding-top: $spacing-sm;
+    padding-bottom: $spacing-sm;
+  }
+}
+
+.section-title {
+  position: relative;
+  font-size: em(16);
+  margin: $spacing-lg auto;
+  max-width: $break-medium + $spacing-lg;
+  text-align: center;
+
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: $light-gray;
+    z-index: 1;
+  }
+
+  & > span {
+    position: relative;
+    display: inline-block;
+    padding: 0 $spacing-lg;
+    font-size: em(30);
+    color: $black;
+    font-weight: $normal;
+    text-transform: uppercase;
+    background-color: $white;
+    z-index: 2;
+
+    @include respond-equal(sm) {
+      font-size: em(22);
+      padding: 0 $spacing-sm;
+    }
+  }
+}
+
+.section-subtitle {
+  font-size: em(24);
+  font-weight: $normal;
+  text-transform: uppercase;
+  color: $black;
+  text-align: center;
+  margin: 1.5*$spacing-lg auto $spacing-lg;
+
+  @include respond-equal(sm) {
+    font-size: em(18);
+    margin: 1.5*$spacing-sm auto $spacing-sm;
+  }
+}
+
+.section-topic-title {
+  font-size: em(18);
+  font-weight: $normal;
+  text-transform: uppercase;
+  color: $black;
+  text-align: center;
+  margin: 1.5*$spacing-lg auto $spacing-lg;
+
+  @include respond-equal(sm) {
+    font-size: em(16);
+    margin: 1.5*$spacing-sm auto $spacing-sm;
+  }
+}
+
+.section-text {
+  line-height: 1.5;
+
+  @include respond-larger(md) {
+    font-size: em(18);
+    line-height: 1.7;
+
+    ul {
+      margin: 0 20%;
+    }
+  }
+
+  @include respond-equal(lg) {
+    margin: 0 auto;
+    max-width: $break-medium - $spacing-sm;
+  }
+
+  ul {
+    text-align: left;
+  }
+}

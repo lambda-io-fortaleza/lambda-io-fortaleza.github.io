@@ -117,16 +117,19 @@
 
    "sponsors":[
       {
-         "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-         "website":"www.sponsor1.com"
+        "name":"Sponsor1",
+        "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+        "website":"www.sponsor1.com"
       },
       {
-         "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-         "website":"www.sponsor1.com"
+        "name":"Sponsor1",
+        "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+        "website":"www.sponsor1.com"
       },
       {
-         "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-         "website":"www.sponsor1.com"
+        "name":"Sponsor1",
+        "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+        "website":"www.sponsor1.com"
       }
    ]
 }

@@ -1,0 +1,58 @@
+.section-speakers {
+  .speaker {
+    margin-bottom: $spacing-lg;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    @include respond-equal(sm) {
+      margin-bottom: $spacing-sm;
+    }
+  }
+
+  .speaker-name {
+    color: #444;
+  }
+
+  .speaker-company {
+    font-size: 1em;
+    color: $dark-gray;
+    margin-bottom: 0.25em;
+  }
+
+  .speaker-origin {
+    font-size: 0.9em;
+    color: $dark-gray;
+    font-weight: normal;
+    margin-top: 0;
+  }
+
+  .speaker-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .lt-list .speaker-photo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .speaker-bio {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  @include respond-equal(lg) {
+    .speaker:nth-last-child(-n+4) {
+      margin-bottom: 0;
+    }
+  }
+
+  @include respond-equal(md) {
+    .speaker:nth-last-child(-n+2) {
+      margin-bottom: 0;
+    }
+  }
+}
