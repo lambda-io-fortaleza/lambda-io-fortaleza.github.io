@@ -2,7 +2,8 @@
    "about":{
       "name":"Conference Example",
       "edition":"Example Edition",
-      "description":"Lorem ipsum dolor sit amet.",
+      "shortDescription":"Lorem ipsum dolor sit amet.",
+      "longDescription":"Lorem ipsum dolor sit amet.",
       "date":"Lorem ipsum dolor sit amet.",
       "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/about/logo.png",
       "register":{
@@ -10,14 +11,15 @@
          "price":"@example"
       },
       "location":{
-        "place":"Example University",
+        "place":"Elephant Coworking",
         "address":"Example Avenue, 111",
         "city":"Example City",
         "state":"Example City",
         "position":{
            "lat":"-3.771020",
            "lng":"-38.483531"
-        }
+        },
+        "mapsKey":"AIzaSyBA8zmp_Mwlz19cazVlsox7QF-apmKtOQY"
       },
       "contact":{
          "email":"conf@example.com",
@@ -26,6 +28,29 @@
          "github":"example.conf"
       }
    },
+
+  "labels": {
+      "sections":{
+        "about": "About",
+        "location": "Location",
+        "speakers": "Speakers",
+        "schedule": "Schedule",
+        "sponsors": "Sponsors",
+        "partners": "Partners",
+        "tickets": "Tickets",
+        "organizers": "Organizers"
+      },
+      "messages":{
+        "getTickets": "Get Tickets",
+        "moreInformation": "More Information",
+        "sponsors":{
+          "description": "More Information",
+          "moreInformation": "More Information",
+          "shortInvitation": "More Information",
+          "longInvitation": "More Information"
+        }
+      }
+    },
 
    "speakers":[
       {
@@ -61,12 +86,7 @@
             "finish":"11:30"
          },
          "type":"talk",
-         "speakers":[
-            {
-               "name":"Speaker Example 1",
-               "image":"http://devevents.github.io/conf-app-boilerplate/static/img/speakers/speaker.png"
-            }
-         ],
+         "speaker": "Speaker 1",
          "description":"Lorem ipsum dolor sit amet.",
          "room":"Auditorium 1"
       },
@@ -97,25 +117,16 @@
 
    "sponsors":[
       {
-         "name":"Sponsor 1",
-         "description":"Lorem ipsum dolor sit amet.",
          "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-         "website":"www.sponsor1.com",
-         "type":"gold"
+         "website":"www.sponsor1.com"
       },
       {
-         "name":"Sponsor 1",
-         "description":"Lorem ipsum dolor sit amet.",
          "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-         "website":"www.sponsor1.com",
-         "type":"silver"
+         "website":"www.sponsor1.com"
       },
       {
-         "name":"Sponsor 1",
-         "description":"Lorem ipsum dolor sit amet.",
          "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-         "website":"www.sponsor1.com",
-         "type":"bronze"
+         "website":"www.sponsor1.com"
       }
    ]
 }
