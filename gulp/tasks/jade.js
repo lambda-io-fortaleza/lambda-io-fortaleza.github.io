@@ -17,6 +17,6 @@ module.exports = gulp.task('jade', function () {
     .pipe(data(function() {
       return JSON.parse(fs.readFileSync('./src/config.json'));
     }))
-    .pipe(jade({pretty: !env.p }))
+    .pipe(jade())
     .pipe(gulp.dest(paths.build.html))
 });
