@@ -1,0 +1,134 @@
+.nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: $nav-height-lg;
+  background-color: $dark-red;
+  color: $white;
+  z-index: 10;
+
+  .wrapper {
+    position: relative;
+  }
+
+  @include respond-equal(sm) {
+    position: fixed;
+    top: 0;
+    bottom: auto;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s ease;
+
+    &.-opened {
+      opacity: 1;
+      pointer-events: auto;
+    }
+  }
+
+  &.-fixed {
+    position: fixed;
+    top: 0;
+    bottom: auto;
+  }
+}
+
+.nav-open {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  z-index: 10;
+
+  span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 24px;
+    background: $white;
+    border-radius: 0px;
+    opacity: 1;
+    left: 8px;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+  }
+
+  span:nth-child(1) {
+    top: 10px;
+  }
+
+  span:nth-child(2), span:nth-child(3) {
+    top: 18px;
+  }
+
+  span:nth-child(4) {
+    top: 26px;
+  }
+
+  &.-opened span:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+  }
+
+  &.-opened span:nth-child(2) {
+    transform: rotate(45deg);
+  }
+
+  &.-opened span:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+
+  &.-opened span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+  }
+}
+
+.nav-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+
+  @include respond-larger(md) {
+    padding: 0 100px;
+  }
+
+  @include respond-equal(sm) {
+    margin: 0;
+  }
+}
+
+.nav-item {
+  line-height: $nav-height-lg;
+  margin: 0 20px;
+  font-size: em(13);
+  font-weight: $bold;
+  text-transform: uppercase;
+
+  &, a {
+    color: $white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: transparentize( $white, 0.4 );
+  }
+
+  @include respond-larger(md) {
+    display: inline-block;
+  }
+
+  @include respond-equal(md) {
+    margin: 0 10px;
+  }
+
+  @include respond-equal(sm) {
+    line-height: $nav-height-sm;
+    margin: 0;
+  }
+}

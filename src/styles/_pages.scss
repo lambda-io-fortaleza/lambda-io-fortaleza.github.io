@@ -1,0 +1,516 @@
+.section {
+  color: $dark-gray;
+
+  p {
+    margin-top: $spacing-lg;
+    margin-bottom: $spacing-lg;
+  }
+
+  .wrapper {
+    padding-top: $spacing-sm;
+    padding-bottom: $spacing-sm;
+  }
+}
+
+.section-title {
+  position: relative;
+  font-size: em(16);
+  margin: $spacing-lg auto;
+  max-width: $break-medium + $spacing-lg;
+  text-align: center;
+
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: $light-gray;
+    z-index: 1;
+  }
+
+  & > span {
+    position: relative;
+    display: inline-block;
+    padding: 0 $spacing-lg;
+    font-size: em(30);
+    color: $black;
+    font-weight: $normal;
+    text-transform: uppercase;
+    background-color: $white;
+    z-index: 2;
+
+    @include respond-equal(sm) {
+      font-size: em(22);
+      padding: 0 $spacing-sm;
+    }
+  }
+}
+
+.section-subtitle {
+  font-size: em(24);
+  font-weight: $normal;
+  text-transform: uppercase;
+  color: $black;
+  text-align: center;
+  margin: 1.5*$spacing-lg auto $spacing-lg;
+
+  @include respond-equal(sm) {
+    font-size: em(18);
+    margin: 1.5*$spacing-sm auto $spacing-sm;
+  }
+}
+
+.section-topic-title {
+  font-size: em(18);
+  font-weight: $normal;
+  text-transform: uppercase;
+  color: $black;
+  text-align: center;
+  margin: 1.5*$spacing-lg auto $spacing-lg;
+
+  @include respond-equal(sm) {
+    font-size: em(16);
+    margin: 1.5*$spacing-sm auto $spacing-sm;
+  }
+}
+
+.section-text {
+  line-height: 1.5;
+
+  @include respond-larger(md) {
+    font-size: em(18);
+    line-height: 1.7;
+
+    ul {
+      margin: 0 20%;
+    }
+  }
+
+  @include respond-equal(lg) {
+    margin: 0 auto;
+    max-width: $break-medium - $spacing-sm;
+  }
+
+  ul {
+    text-align: left;
+  }
+}
+
+.section-header {
+  color: $black;
+  background-image: url('../img/amsterdam_bw.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include respond-equal(sm) {
+    background-image: url('../img/amsterdam_bw_768.jpg');
+  }
+
+  .wrapper {
+    text-align: center;
+  }
+
+  .header-link {
+    color: $black;
+  }
+
+  .header-logo {
+    margin: $spacing-sm 0;
+  }
+
+  .header-logo-img {
+    width: 130px;
+    margin-bottom: $spacing-sm;
+  }
+
+  .header-logo-text {
+    margin: $spacing-sm 0;
+    font-size: em(50);
+    font-weight: $normal;
+    text-transform: uppercase;
+
+    &.-small {
+      font-size: em(30);
+    }
+  }
+
+  .header-line {
+    width: 500px;
+    height: 1px;
+    margin: $spacing-lg auto;
+    border: 0;
+    background: linear-gradient(to right,  transparent 0%, $white 50%, transparent 100%);
+  }
+
+  .header-details {
+    display: block;
+  }
+
+  .header-ics:hover {
+    color: transparentize( $white, 0.4 );
+  }
+
+  .header-date-location,
+  .header-location {
+    font-size: em(22);
+    margin: $spacing-sm / 2 0;
+  }
+
+  .header-location {
+    font-size: em(16);
+  }
+
+  @include respond-equal(sm) {
+    .header-logo-img {
+      width: 60px;
+      margin-bottom: $spacing-sm / 3;
+    }
+
+    .header-logo-text {
+      font-size: em(30);
+      margin: $spacing-sm 0;
+
+      &.-small {
+        font-size: em(22);
+      }
+    }
+
+    .header-line {
+      width: 60%;
+      margin: $spacing-sm auto;
+    }
+
+    .header-date-location,
+    .header-location {
+      font-size: em(16);
+      margin: $spacing-sm / 2.5 0;
+    }
+
+    .header-location {
+      font-size: em(14);
+    }
+  }
+}
+
+.section-hero {
+  color: $white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../img/amsterdam.jpg');
+
+  @include respond-larger(md) {
+    height: 100vh;
+    padding-bottom: $nav-height-lg;
+  }
+
+  @include respond-equal(sm) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../img/amsterdam_768.jpg');
+    height: 400px;
+    padding-top: $nav-height-lg;
+  }
+
+  .wrapper {
+    padding: 0;
+    height: 100%;
+  }
+
+  .header-link {
+    color: $white;
+  }
+
+  .header-logo-img {
+    width: 160px;
+    margin-bottom: $spacing-lg * 1.1;
+  }
+
+  .header-logo-text {
+    margin: $spacing-lg 0;
+    font-size: em(60);
+    text-shadow: 0 2px 0 transparentize( $black, 0.8 );
+  }
+
+  .header-details {
+    color: $white;
+  }
+
+  .header-location {
+    color: $red;
+  }
+
+  @include respond-larger(sm) {
+    .header-logo {
+      margin-top: 0;
+    }
+  }
+
+  @include respond-equal(sm) {
+    .header-logo-img {
+      margin-bottom: $spacing-sm;
+    }
+  }
+}
+
+.section-location {
+  .location-photo {
+    background-size: cover;
+  }
+  .location-photo-1 {
+    background-image: url(../img/photos/tobacco-1.jpg);
+    height: 500px;
+  }
+  .location-photo-2 {
+    background-image: url(../img/photos/tobacco-2.jpg);
+    height: 250px;
+  }
+  .location-photo-3 {
+    background-image: url(../img/photos/tobacco-3.jpg);
+    height: 250px;
+  }
+  .location-map {
+    height: 500px;
+  }
+
+  @include respond-equal(sm) {
+    .location-photo-1 {
+      background-image: url(../img/photos/tobacco-1_768.jpg);
+    }
+    .location-photo-2 {
+      background-image: url(../img/photos/tobacco-2_768.jpg);
+    }
+    .location-photo-3 {
+      background-image: url(../img/photos/tobacco-3_768.jpg);
+    }
+    .location-photo-1,
+    .location-photo-2,
+    .location-photo-3,
+    .location-map {
+      height: 200px;
+    }
+  }
+
+  @include respond-equal(md) {
+    .location-photo-1,
+    .location-map {
+      height: 400px;
+    }
+
+    .location-photo-2,
+    .location-photo-3 {
+      height: 200px;
+    }
+  }
+}
+
+.section-speakers {
+  .speaker {
+    margin-bottom: $spacing-lg;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    @include respond-equal(sm) {
+      margin-bottom: $spacing-sm;
+    }
+  }
+
+  .speaker-name {
+    color: #444;
+  }
+
+  .speaker-company {
+    font-size: 1em;
+    color: $dark-gray;
+    margin-bottom: 0.25em;
+  }
+
+  .speaker-origin {
+    font-size: 0.9em;
+    color: $dark-gray;
+    font-weight: normal;
+    margin-top: 0;
+  }
+
+  .speaker-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .lt-list .speaker-photo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .speaker-bio {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  @include respond-equal(lg) {
+    .speaker:nth-last-child(-n+4) {
+      margin-bottom: 0;
+    }
+  }
+
+  @include respond-equal(md) {
+    .speaker:nth-last-child(-n+2) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.-tba .speaker-photo {
+  display: inline-block;
+  background: $placeholder-color;
+  text-align: center;
+  padding-top: 92px;
+
+  .lt-list & {
+    padding-top: 54px;
+    font-size: em(14);
+  }
+}
+
+.section-sponsors {
+  .sponsor {
+    text-align: center;
+  }
+
+  .sponsor-image {
+    display: block;
+    margin: 0 auto;
+
+    img { max-width: 100%; }
+  }
+
+  .-tba .sponsor-image {
+    padding: 24px 0;
+    background: $placeholder-color;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .sponsors-gold-list .sponsor-image {
+    max-width: 450px;
+  }
+
+  .sponsors-silver-list .sponsor-image {
+    max-width: 240px;
+  }
+
+  .sponsors-brozne-list .sponsor-image {
+    max-width: 140px;
+    font-size: em(14);
+  }
+
+}
+
+.section-sponsorship {
+  .sponsorship-value {
+    color: $dark-gray;
+  }
+}
+
+.section-organizers {
+  .organizer-name {
+    font-size: em(16);
+    text-transform: uppercase;
+  }
+
+  .organizer-photo {
+    border-radius: 50%;
+  }
+}
+
+.section-schedule {
+  .schedule-calendar {
+    overflow: hidden;
+  }
+
+  .schedule-time,
+  .schedule-event {
+    box-sizing: border-box;
+    float: left;
+    margin: 1.5em 0 0;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+
+    @include respond-equal(sm) {
+      text-align: center;
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .schedule-time {
+    width: 30%;
+    clear: left;
+    padding-right: 20px;
+    text-align: right;
+    font-size: 1.5em;
+    color: $dark-red;
+    margin-top: 1em;
+
+    @include respond-equal(sm) {
+      padding-right: 0;
+    }
+  }
+
+  .schedule-event {
+    width: 70%;
+    padding-left: 20px;
+
+    @include respond-equal(sm) {
+      padding-left: 0;
+      margin-top: 1em;
+
+      &:first-of-type {
+        margin-top: 1em;
+      }
+    }
+  }
+
+  .schedule-title {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+
+  .schedule-presentation {
+    font-weight: bold;
+  }
+
+  .schedule-speaker {
+    margin: .75em 0;
+    font-weight: normal;
+
+    @include respond-equal(sm) {
+      text-align: center;
+    }
+  }
+
+  .schedule-description {
+    margin: 1.25em 0;
+    line-height: 1.4;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.section-footer {
+  font-size: em(14);
+  color: $white;
+  background-color: $gray;
+
+  a {
+    color: $white;
+    text-decoration: underline;
+  }
+}

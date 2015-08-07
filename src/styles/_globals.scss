@@ -1,0 +1,58 @@
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body [hidden] {
+  display: none;
+}
+
+html, body {
+  margin: 0;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, select, textarea, button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+body {
+  font-weight: $normal;
+  background-color: $white;
+
+  @include respond-equal(sm) {
+    font-size: em($size-sm);
+  }
+}
+
+body {
+  color: $black;
+}
+
+a {
+  text-decoration: none;
+  color: $red;
+  transition: all 0.15s ease;
+}
+
+a:hover {
+  color: $black;
+}
+
+strong, b {
+  font-weight: $bold;
+}
+
+.-tbd {
+  body.-shhh & {
+    display: none;
+  }
+}
+
+.-pre-event {
+  body.-lets-go & {
+    display: none;
+  }
+}

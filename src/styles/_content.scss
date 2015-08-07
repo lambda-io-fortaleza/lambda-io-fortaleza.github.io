@@ -1,0 +1,76 @@
+.nowrap {
+  white-space: nowrap;
+}
+
+body .pull-left {
+  float: left;
+}
+
+body .pull-right {
+  float: right;
+}
+
+body .text-left {
+  text-align: left;
+}
+
+body .text-center {
+  text-align: center;
+}
+
+body .text-right {
+  text-align: right;
+}
+
+body .align-middle {
+  vertical-align: middle;
+}
+
+body .align-middle-filler {
+  display: inline-block;
+  width: 1px;
+  height: 100%;
+  margin-right: -1px;
+  vertical-align: middle;
+}
+
+.wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $spacing-sm;
+  padding-right: $spacing-sm;
+
+  @include respond-equal(md) {
+    width: $break-medium - $spacing-sm;
+  }
+
+  @include respond-equal(lg) {
+    width: $break-large - $spacing-sm;
+  }
+}
+
+.padding {
+  padding-left: $spacing-lg;
+  padding-right: $spacing-lg;
+  padding-bottom: $spacing-lg;
+
+  @include respond-equal(sm) {
+    padding-left: $spacing-sm;
+    padding-right: $spacing-sm;
+    padding-bottom: $spacing-sm;
+  }
+}
+
+.list-linear,
+.list-stacked {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-linear {
+  &, > li {
+    display: inline-block;
+  }
+}
