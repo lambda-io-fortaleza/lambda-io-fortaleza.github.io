@@ -5,12 +5,12 @@ module.exports = {
     source: {
         jade: 'src/templates/**/*.jade',
         ls: 'src/scripts/**/*.ls',
-        styl: 'src/styles/**/*.styl',
+        sass: 'src/styles/**/*.scss',
         img: 'src/images/**/*.{jpg,png,gif}',
         files: {
             config: './src/config.json',
             jade: 'src/templates/*.jade',
-            styl: 'src/styles/main.styl'
+            sass: 'src/styles/main.scss'
         }
 
     },
@@ -25,7 +25,7 @@ module.exports = {
     build: {
         html: './www/',
         js: 'www/js',
-        css: 'www/css',
+        css: 'www/css/',
         img: 'www/img'
     }
 };
