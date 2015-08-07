@@ -7,6 +7,6 @@ var gulp   = require('gulp')
 module.exports = gulp.task('watch', function () {
   gulp.watch([paths.source.jade, paths.source.files.config], ['jade']);
   gulp.watch(paths.source.ls, ['ls']);
-  gulp.watch(paths.source.styl, ['stylint', 'stylus']);
+  gulp.watch(paths.source.sass, ['sass']);
   gulp.watch(paths.source.img, ['imagemin']);
 });
