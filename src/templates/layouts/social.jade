@@ -1,19 +1,19 @@
 // Social: Facebook / Open Graph
-meta(property="og:title", content=name)
-meta(property="og:description", content=description)
-meta(property="og:image", content=image)
-meta(property="og:url", content=url)
-meta(property="og:site_name", content=name)
-meta(property="og:type", content=facebookType)
+meta(property="og:title", content = "#{about.name}")
+meta(property="og:description", content = "#{about.description}")
+meta(property="og:image", content = "#{about.logo}")
+meta(property="og:url", content = "#{about.url}")
+meta(property="og:site_name", content = "#{about.name}")
+meta(property="og:type", content = "website")
 
 // Social: Twitter
-meta(name="twitter:title", content=name)
-meta(name="twitter:description", content=description)
-meta(property="twitter:image:src", content=image)
-meta(name="twitter:url", content=url)
-meta(name="twitter:card", content=twitterType)
+meta(name="twitter:title", content = "#{about.name}")
+meta(name="twitter:description", content = "#{about.description}")
+meta(property="twitter:image:src", content = "#{about.logo}")
+meta(name="twitter:url", content = "#{about.url}")
+meta(name="twitter:card", content = "summary_large_image")
 
 // Social: Google+
-meta(itemprop="name", content=name)
-meta(itemprop="description", content=description)
-meta(itemprop="image", content=image)
+meta(itemprop="name", content = "#{about.name}")
+meta(itemprop="description", content = "#{about.description}")
+meta(itemprop="image", content = "#{about.logo}")
