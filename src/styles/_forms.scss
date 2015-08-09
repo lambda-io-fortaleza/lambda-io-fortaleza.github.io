@@ -83,10 +83,10 @@
   line-height: 21px;
   margin: 0;
   padding: 12px 40px;
-  border: 2px solid $red;
+  border: 2px solid $primary-color;
   border-radius: 3px;
   background-color: transparent;
-  color: $red;
+  color: $primary-color;
   vertical-align: top;
   font-size: em(14);
   font-weight: $bold;
@@ -96,12 +96,12 @@
 
   &:hover, &:focus, &:active {
     color: $white;
-    background-color: $red;
+    background-color: $primary-color;
     outline: 0;
   }
 
   &:active {
-    background-color: $dark-red;
+    background-color: $secondary-color;
   }
 }
 
@@ -111,10 +111,10 @@
 
 .btn-info {
   color: $white;
-  background-color: $red;
+  background-color: $primary-color;
 
   &:active {
-    background-color: $dark-red;
+    background-color: $secondary-color;
   }
 }
 
@@ -122,18 +122,18 @@
 .tito-tickets-button {
   color: $white;
   border-color: transparent;
-  background-color: $red;
+  background-color: $primary-color;
 
   &:hover, &:focus, &:active {
-    background-color: $dark-red;
+    background-color: $secondary-color;
   }
 }
 
 .btn-danger {
-  border-color: $red;
-  background-color: $red;
+  border-color: $primary-color;
+  background-color: $primary-color;
 
   &:active {
-    background-color: $red;
+    background-color: $primary-color;
   }
 }

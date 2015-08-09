@@ -26,7 +26,7 @@
     padding-right: 20px;
     text-align: right;
     font-size: 1.5em;
-    color: $dark-red;
+    color: $secondary-color;
     margin-top: 1em;
 
     @include respond-equal(sm) {

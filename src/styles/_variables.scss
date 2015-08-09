@@ -2,6 +2,9 @@
 $break-medium: 768px;
 $break-large: 1280px;
 
+// Background
+$background: '../img/cover.jpg';
+
 // Font weights
 $normal: 300;
 $bold: 700;
@@ -11,11 +14,15 @@ $size-default: 16;
 $size-sm: 16;
 
 // Colors
-$red: #ea3b3b;
-$dark-red: #c31616;
+
+// Custom
+$primary-color: #e8e242;
+$secondary-color: #c5bf18;
+
+// Other
 $white: #fff;
-$light-gray: #d3d3d3;
 $gray: #adadad;
+$light-gray: #d3d3d3;
 $dark-gray: #888;
 $black: #000;
 

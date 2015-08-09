@@ -1,6 +1,6 @@
 .section-hero {
   color: $white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../img/amsterdam.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url($background);
 
   @include respond-larger(md) {
     height: 100vh;
@@ -8,7 +8,7 @@
   }
 
   @include respond-equal(sm) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../img/amsterdam_768.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url($background);
     height: 400px;
     padding-top: $nav-height-lg;
   }
@@ -38,7 +38,7 @@
   }
 
   .header-location {
-    color: $red;
+    color: $primary-color;
   }
 
   @include respond-larger(sm) {
