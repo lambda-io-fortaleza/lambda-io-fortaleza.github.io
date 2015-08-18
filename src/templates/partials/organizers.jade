@@ -1,0 +1,18 @@
+section#organizers.section.section-organizers.text-center(data-track="view", data-track-category="Section", data-track-label="Organizers")
+
+  .wrapper
+    h1.section-title
+      span #{labels.sections.organizers}
+    p #{labels.messages.organizers.message}
+
+    .organizers.grid.grid-padded
+
+      each organizer in organizers
+
+        article.organizer.width-1-1.width-md-1-5(data-track="click", data-track-category="Organizers", data-track-label="#{organizer.name}")
+          a(href="http://brunopassos.com/", target="_blank")
+            img.organizer-photo(src="#{organizer.website}", width="100", height="100", alt="#{organizer.name}")
+            h1.organizer-name #{organizer.name}
+
+    p
+      a.btn-default(href="mailto:#{about.contact.email}", data-track="click", data-track-category="Organizers", data-track-label="Contact us") #{labels.messages.contact}
