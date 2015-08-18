@@ -1,0 +1,20 @@
+section#partners.section.section-partners(data-track="view", data-track-category="Section", data-track-label="Partners")
+
+  .wrapper.text-center
+    h1.section-title
+      span #{labels.sections.partners}
+    .section-text
+      p #{labels.messages.partners.moreInformation}
+
+    .partners-list.grid.grid-padded.grid-middle
+
+      each partner in partners
+
+        article.partner.width-1-2.width-md-1-4.width-lg-1-8
+          a.partner-image(href="#{partner.website}", target="_blank", data-track="click", data-track-category="partners", data-track-label="#{partner.name}")
+            img(src="#{partner.logo}", alt="#{partner.name}")
+
+    h3.section-topic-title #{labels.messages.partners.invitation}
+      .section-text
+        p
+          a.btn-default(href="./media-kit.html", data-track="click", data-track-category="partners", data-track-label="Media Kit") #{labels.messages.partners.moreInformation}
