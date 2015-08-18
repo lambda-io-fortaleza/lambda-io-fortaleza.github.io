@@ -1,0 +1,15 @@
+section#schedule.section.section-schedule(data-track="view", data-track-category="Section", data-track-label="Schedule")
+
+  .wrapper
+    h1.section-title
+      span #{labels.sections.schedule}
+
+    dl.schedule-calendar
+
+      each attraction in schedule
+
+        dt.schedule-time #{attraction.time}
+        dd.schedule-event
+          h2.schedule-title.schedule-presentation #{attraction.name}
+          h3.schedule-speaker #{attraction.speaker}
+          p.schedule-description #{attraction.description}
