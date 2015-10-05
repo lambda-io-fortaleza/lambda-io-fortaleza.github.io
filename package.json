@@ -38,6 +38,7 @@
     "gulp-util": "^3.0.2",
     "livescript": "^1.4.0",
     "minimist": "1.1.2",
+    "node-sass": "^3.3.3",
     "rsyncwrapper": "^0.4.1"
   },
   "repository": {
