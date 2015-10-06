@@ -4,17 +4,9 @@ nav.nav(role="navigation", data-component="navigation")
 
     ul.nav-menu
 
-      li.nav-item
-        a(data-scroll="", href="#about", data-track="click", data-track-category="Navigation", data-track-label="About") #{labels.sections.about}
+    each section in labels.sections
+
       li.nav-item.hidden-md
-        a(data-scroll="", href="#location", data-track="click", data-track-category="Navigation", data-track-label="Location") #{labels.sections.location}
-      li.nav-item
-        a(data-scroll="", href="#speakers", data-track="click", data-track-category="Navigation", data-track-label="Speakers") #{labels.sections.speakers}
-      li.nav-item
-        a(data-scroll="", href="#schedule", data-track="click", data-track-category="Navigation", data-track-label="Schedule") #{labels.sections.schedule}
-      li.nav-item
-        a(data-scroll="", href="#sponsors", data-track="click", data-track-category="Navigation", data-track-label="Sponsors") #{labels.sections.sponsors}
-      li.nav-item
-        a(data-scroll="", href="#partners", data-track="click", data-track-category="Navigation", data-track-label="Partners") #{labels.sections.partners}
+        a(data-scroll="", href="##{section.name}", data-track="click", data-track-category="Navigation", data-track-label="#{section.label}") #{section.label}
 
 button.visible-sm.nav-open.btn-primary.btn-small(data-component="navigation-mobile", aria-label="Menu", data-track="click", data-track-category="Navigation", data-track-label="Mobile Toggle")
