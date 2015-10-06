@@ -183,16 +183,14 @@
   "partners":[
 
     {
-       "name":"Partner 1",
-       "description":"Lorem ipsum dolor sit amet.",
-       "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-       "website":"www.sponsor1.com"
+      "name":"Partner 1",
+      "logo":"img/partners/your-logo.jpg",
+      "website":"#"
     },
     {
-       "name":"Partner 2",
-       "description":"Lorem ipsum dolor sit amet.",
-       "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-       "website":"www.sponsor2.com"
+      "name":"Partner 2",
+      "logo":"img/partners/your-logo.jpg",
+      "website":"#"
     }
 
   ],
@@ -200,19 +198,19 @@
   "sponsors":[
 
     {
-      "name":"Sponsor1",
-      "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-      "website":"www.sponsor1.com"
+      "name":"Sponsor 1",
+      "logo":"img/sponsors/your-logo.jpg",
+      "website":"#"
     },
     {
-      "name":"Sponsor1",
-      "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-      "website":"www.sponsor1.com"
+      "name":"Sponsor 2",
+      "logo":"img/sponsors/your-logo.jpg",
+      "website":"#"
     },
     {
-      "name":"Sponsor1",
-      "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-      "website":"www.sponsor1.com"
+      "name":"Sponsor 3",
+      "logo":"img/sponsors/your-logo.jpg",
+      "website":"#"
     }
 
   ],
@@ -220,19 +218,19 @@
   "organizers":[
 
     {
-      "name":"Sponsor1",
-      "photo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-      "website":"www.sponsor1.com"
+      "name":"Organizer 1",
+      "photo":"img/organizers/organizer.jpg",
+      "website":"#"
     },
     {
-      "name":"Sponsor2",
-      "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-      "website":"www.sponsor1.com"
+      "name":"Organizer 2",
+      "photo":"img/organizers/organizer.jpg",
+      "website":"#"
     },
     {
-      "name":"Sponsor3",
-      "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-      "website":"https://www.facebook.com/?_rdr=p"
+      "name":"Organizer 3",
+      "photo":"img/organizers/organizer.jpg",
+      "website":"#"
     }
 
   ]
