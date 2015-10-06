@@ -1,135 +1,240 @@
 {
-   "about":{
-      "name":"Conference Example",
-      "edition":"Example Edition",
-      "shortDescription":"Lorem ipsum dolor sit amet.",
-      "longDescription":"Lorem ipsum dolor sit amet.",
-      "date":"Lorem ipsum dolor sit amet.",
-      "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/about/logo.png",
-      "register":{
-         "link":"conf@example.com",
-         "price":"@example"
-      },
-      "location":{
-        "place":"Elephant Coworking",
-        "address":"Example Avenue, 111",
-        "city":"Example City",
-        "state":"Example City",
-        "position":{
-           "lat":"-3.771020",
-           "lng":"-38.483531"
-        },
-        "mapsKey":"AIzaSyBA8zmp_Mwlz19cazVlsox7QF-apmKtOQY"
-      },
-      "contact":{
-         "email":"conf@example.com",
-         "twitter":"@example",
-         "facebook":"example.conf",
-         "github":"example.conf"
-      }
-   },
+
+  "about":{
+
+    "name":"Conference name",
+    "shortDescription":"Conference description",
+    "longDescription":"So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things. That's why we created this project!",
+    "date":"November 15",
+    "logo":"img/logo.png",
+    "register":{
+      "message":"Register now!",
+      "link":"https://www.eventick.com.br"
+    },
+    "location":{
+      "place":"Coco Bongo",
+      "address":"Boulevard Kukulcan, 30",
+      "city":"Cancún",
+      "state":"Quintana",
+      "mapsKey":"AIzaSyBA8zmp_Mwlz19cazVlsox7QF-apmKtOQY"
+    },
+    "site":{
+      "url":"Conference Example",
+      "googleAnalytics": "UA-33656081-1"
+    },
+    "contact":{
+       "email":"conf@example.com",
+       "twitter":"@example",
+       "facebook":"example.conf",
+       "github":"example.conf"
+    }
+
+  },
 
   "labels": {
-      "sections":{
-        "about": "About",
-        "location": "Location",
-        "speakers": "Speakers",
-        "schedule": "Schedule",
-        "sponsors": "Sponsors",
-        "partners": "Partners",
-        "tickets": "Tickets",
-        "organizers": "Organizers"
+
+    "sections":[
+      {
+        "name": "about",
+        "label": "About"
       },
-      "messages":{
-        "getTickets": "Get Tickets",
+      {
+        "name": "location",
+        "label": "Location"
+      },
+      {
+        "name": "speakers",
+        "label": "Speakers"
+      },
+      {
+        "name": "schedule",
+        "label": "Schedule"
+      },
+      {
+        "name": "sponsors",
+        "label": "Sponsors"
+      },
+      {
+        "name": "partners",
+        "label": "Partners"
+      },
+      {
+        "name": "organizers",
+        "label": "Organizers"
+      }
+    ],
+
+    "messages":{
+
+      "getTickets": "Get Tickets",
+      "moreInformation": "More Information",
+      "sponsors":{
+        "description": "More Information",
         "moreInformation": "More Information",
-        "sponsors":{
-          "description": "More Information",
-          "moreInformation": "More Information",
-          "shortInvitation": "More Information",
-          "longInvitation": "More Information"
-        }
-      }
+        "invitation": "More Information"
+      },
+      "partners":{
+        "description": "More Information",
+        "moreInformation": "More Information",
+        "invitation": "More Information"
+      },
+      "organizers": "More Information",
+      "contact": "Get in Touch",
+      "footer":"Made with ♥ by Conf Boilerplate :)"
+
+    }
+
+  },
+
+  "speakers":[
+
+    {
+       "name":"Linus Torvalds",
+       "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+       "photo":"img/speakers/speaker.jpg",
+       "company":"Linux Foundation",
+       "twitter":"linus"
     },
+    {
+       "name":"Bill Gates",
+       "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+       "photo":"img/speakers/speaker.jpg",
+       "company":"Microsoft",
+       "twitter":"billy95"
+    },
+    {
+       "name":"Chuck Norris",
+       "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+       "photo":"img/speakers/speaker.jpg",
+       "company":"Delta Command",
+       "twitter":"littlechuck"
+    },
+    {
+       "name":"Steve Jobs",
+       "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+       "photo":"img/speakers/speaker.jpg",
+       "company":"Apple, Inc.",
+       "twitter":"stevie"
+    },
+    {
+       "name":"Mark Zuckerberg",
+       "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+       "photo":"img/speakers/speaker.jpg",
+       "company":"Facebook",
+       "twitter":"zuck"
+    },
+    {
+       "name":"Steve Wozniak",
+       "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+       "photo":"img/speakers/speaker.jpg",
+       "company":"Apple, Inc.",
+       "twitter":"woz"
+    }
 
-   "speakers":[
-      {
-         "name":"Speaker 1",
-         "bio":"Lorem ipsum dolor sit amet.",
-         "photo":"http://devevents.github.io/conf-app-boilerplate/static/img/speakers/speaker.png",
-         "company":"Company 1",
-         "twitter":"example1"
-      },
-      {
-         "name":"Speaker 2",
-         "photo":"http://devevents.github.io/conf-app-boilerplate/static/img/speakers/speaker.png",
-         "bio":"Lorem ipsum dolor sit amet.",
-         "company":"Company 2",
-         "twitter":"example2"
-      }
-   ],
+  ],
 
-   "schedule":[
-      {
-         "name":"Registration",
-         "time":{
-            "start":"9:00",
-            "finish":"10:00"
-         },
-         "type":"general",
-         "room":""
-      },
-      {
-         "name":"Talk 1",
-         "time":{
-            "start":"10:30",
-            "finish":"11:30"
-         },
-         "type":"talk",
-         "speaker": "Speaker 1",
-         "description":"Lorem ipsum dolor sit amet.",
-         "room":"Auditorium 1"
-      },
-      {
-         "name":"Close",
-         "time":{
-            "start":"18:00"
-         },
-         "type":"general",
-         "date":"day1"
-      }
-   ],
+  "schedule":[
 
-   "partners":[
-      {
-         "name":"Partner 1",
-         "description":"Lorem ipsum dolor sit amet.",
-         "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-         "website":"www.sponsor1.com"
-      },
-      {
-         "name":"Partner 2",
-         "description":"Lorem ipsum dolor sit amet.",
-         "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-         "website":"www.sponsor2.com"
-      }
-   ],
+    {
+       "name":"Check-in / Breakfast",
+       "time":"9:00"
+    },
+    {
+       "name":"Digging into a Linux Kernel",
+       "time": "10h00",
+       "speaker": "Linus Torvalds",
+       "description":"Lorem ipsum dolor sit amet."
+    },
+    {
+       "name":"Introducing Windows 12",
+       "time": "10h00",
+       "speaker": "Bill Gates",
+       "description":"Lorem ipsum dolor sit amet."
+    },
+    {
+       "name":"Digging into a Linux Kernel",
+       "time": "10h00",
+       "speaker": "Linus Torvalds",
+       "description":"Lorem ipsum dolor sit amet.",
+       "room":"Auditorium 1"
+    },
+    {
+       "name":"Digging into a Linux Kernel",
+       "time": "10h00",
+       "speaker": "Linus Torvalds",
+       "description":"Lorem ipsum dolor sit amet.",
+       "room":"Auditorium 1"
+    },
+    {
+       "name":"Digging into a Linux Kernel",
+       "time": "10h00",
+       "speaker": "Linus Torvalds",
+       "description":"Lorem ipsum dolor sit amet.",
+       "room":"Auditorium 1"
+    },
+    {
+       "name":"Close",
+       "time":"",
+       "date":"day1"
+    }
 
-   "sponsors":[
-      {
-        "name":"Sponsor1",
-        "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-        "website":"www.sponsor1.com"
-      },
-      {
-        "name":"Sponsor1",
-        "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-        "website":"www.sponsor1.com"
-      },
-      {
-        "name":"Sponsor1",
-        "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-        "website":"www.sponsor1.com"
-      }
-   ]
+  ],
+
+  "partners":[
+
+    {
+       "name":"Partner 1",
+       "description":"Lorem ipsum dolor sit amet.",
+       "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+       "website":"www.sponsor1.com"
+    },
+    {
+       "name":"Partner 2",
+       "description":"Lorem ipsum dolor sit amet.",
+       "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+       "website":"www.sponsor2.com"
+    }
+
+  ],
+
+  "sponsors":[
+
+    {
+      "name":"Sponsor1",
+      "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+      "website":"www.sponsor1.com"
+    },
+    {
+      "name":"Sponsor1",
+      "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+      "website":"www.sponsor1.com"
+    },
+    {
+      "name":"Sponsor1",
+      "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+      "website":"www.sponsor1.com"
+    }
+
+  ],
+
+  "organizers":[
+
+    {
+      "name":"Sponsor1",
+      "photo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+      "website":"www.sponsor1.com"
+    },
+    {
+      "name":"Sponsor2",
+      "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+      "website":"www.sponsor1.com"
+    },
+    {
+      "name":"Sponsor3",
+      "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+      "website":"https://www.facebook.com/?_rdr=p"
+    }
+
+  ]
+
 }
