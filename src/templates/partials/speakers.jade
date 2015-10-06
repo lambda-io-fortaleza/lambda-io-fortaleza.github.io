@@ -1,0 +1,16 @@
+section#speakers.section.section-speakers(data-track="view", data-track-category="Section", data-track-label="Speakers")
+
+  .wrapper.text-center
+    h1.section-title
+      span #{labels.sections[2].label}
+
+    .speaker-list.grid.grid-padded
+
+      each speaker in speakers
+
+        article.speaker.width-1-1.width-md-1-2.width-lg-1-4
+          img.speaker-photo(src="#{speaker.photo}", alt="#{speaker.name}")
+          h1.speaker-name #{speaker.name}
+          h2.speaker-company #{speaker.company}
+          a(href="http://twitter.com/@#{speaker.twitter}", target="_blank") @#{speaker.twitter}
+          p.speaker-bio #{speaker.bio}
