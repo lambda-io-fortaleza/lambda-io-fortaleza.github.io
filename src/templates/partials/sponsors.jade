@@ -1,0 +1,20 @@
+section#sponsors.section.section-sponsors(data-track="view", data-track-category="Section", data-track-label="Sponsors")
+
+  .wrapper.text-center
+    h1.section-title
+      span #{labels.sections[4].label}
+    .section-text
+      p #{labels.messages.sponsors.moreInformation}
+
+    .sponsors-list.grid.grid-padded.grid-middle
+
+      each sponsor in sponsors
+
+        article.sponsor.width-1-2.width-md-1-4.width-lg-1-8
+          a.sponsor-image(href="#{sponsor.website}", target="_blank", data-track="click", data-track-category="Sponsors", data-track-label="#{sponsor.name}")
+            img(src="#{sponsor.logo}", alt="#{sponsor.name}")
+
+    h3.section-topic-title #{labels.messages.sponsors.invitation}
+      .section-text
+        p
+          a.btn-default(href="./media-kit.html", data-track="click", data-track-category="Sponsors", data-track-label="Media Kit") #{labels.messages.sponsors.moreInformation}
