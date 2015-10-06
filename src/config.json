@@ -71,12 +71,14 @@
       "sponsors":{
         "description": "More Information",
         "moreInformation": "More Information",
-        "invitation": "More Information"
+        "invitation": "More Information",
+        "mediakit": "#"
       },
       "partners":{
         "description": "More Information",
         "moreInformation": "More Information",
-        "invitation": "More Information"
+        "invitation": "More Information",
+        "mediakit": "#"
       },
       "organizers": "More Information",
       "contact": "Get in Touch",
