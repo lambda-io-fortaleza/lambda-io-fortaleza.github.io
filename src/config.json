@@ -235,6 +235,14 @@
       "website":"#"
     }
 
-  ]
+  ],
+
+   "deploy":{
+      "rsync":{
+        "username":"",
+        "hostname": "",
+        "dest": ""
+      }
+   }
 
 }
