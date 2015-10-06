@@ -1,14 +1,18 @@
 header#home.section.section-header.section-hero
 
   .wrapper.grid
+
     .align-middle-filler
+
     .section-figure.width-1-1.align-middle
+
       figure.header-logo(data-track="click", data-track-category="Hero", data-track-label="Logo")
         img.header-logo-img(src="#{about.logo}", alt="#{about.name}")
         h1.header-logo-text #{about.name}
+
       hr.header-line
-      a.header-details.header-ics(href="#Location", data-track="click", data-track-category="Hero", data-track-label="Location pin")
+
+      a.header-details.header-ics(href="#location", data-track="click", data-track-category="Hero", data-track-label="Location pin")
         img(src="img/marker-default.svg", width="23", height="30", alt="Location pin")
         .header-date-location #{about.date}, #{about.location.place}
         .header-location #{about.location.city}, #{about.location.state}
-
