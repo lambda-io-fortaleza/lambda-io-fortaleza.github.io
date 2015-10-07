@@ -23,10 +23,10 @@
       "googleAnalytics": "UA-33656081-1"
     },
     "contact":{
-       "email":"conf@example.com",
-       "twitter":"@example",
-       "facebook":"example.conf",
-       "github":"example.conf"
+      "email":"conf@example.com",
+      "twitter":"@example",
+      "facebook":"example.conf",
+      "github":"example.conf"
     }
 
   },
@@ -91,46 +91,46 @@
   "speakers":[
 
     {
-       "name":"Linus Torvalds",
-       "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-       "photo":"img/speakers/speaker.jpg",
-       "company":"Linux Foundation",
-       "twitter":"linus"
+      "name":"Linus Torvalds",
+      "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+      "photo":"img/speakers/speaker.jpg",
+      "company":"Linux Foundation",
+      "twitter":"linus"
     },
     {
-       "name":"Bill Gates",
-       "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-       "photo":"img/speakers/speaker.jpg",
-       "company":"Microsoft",
-       "twitter":"billy95"
+      "name":"Bill Gates",
+      "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+      "photo":"img/speakers/speaker.jpg",
+      "company":"Microsoft",
+      "twitter":"billy95"
     },
     {
-       "name":"Chuck Norris",
-       "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-       "photo":"img/speakers/speaker.jpg",
-       "company":"Delta Command",
-       "twitter":"littlechuck"
+      "name":"Chuck Norris",
+      "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+      "photo":"img/speakers/speaker.jpg",
+      "company":"Delta Command",
+      "twitter":"littlechuck"
     },
     {
-       "name":"Steve Jobs",
-       "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-       "photo":"img/speakers/speaker.jpg",
-       "company":"Apple, Inc.",
-       "twitter":"stevie"
+      "name":"Steve Jobs",
+      "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+      "photo":"img/speakers/speaker.jpg",
+      "company":"Apple, Inc.",
+      "twitter":"stevie"
     },
     {
-       "name":"Mark Zuckerberg",
-       "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-       "photo":"img/speakers/speaker.jpg",
-       "company":"Facebook",
-       "twitter":"zuck"
+      "name":"Mark Zuckerberg",
+      "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+      "photo":"img/speakers/speaker.jpg",
+      "company":"Facebook",
+      "twitter":"zuck"
     },
     {
-       "name":"Steve Wozniak",
-       "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-       "photo":"img/speakers/speaker.jpg",
-       "company":"Apple, Inc.",
-       "twitter":"woz"
+      "name":"Steve Wozniak",
+      "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+      "photo":"img/speakers/speaker.jpg",
+      "company":"Apple, Inc.",
+      "twitter":"woz"
     }
 
   ],
@@ -138,46 +138,46 @@
   "schedule":[
 
     {
-       "name":"Check-in / Breakfast",
-       "time":"9:00"
+      "name":"Check-in / Breakfast",
+      "time":"9:00"
     },
     {
-       "name":"Digging into a Linux Kernel",
-       "time": "10h00",
-       "speaker": "Linus Torvalds",
-       "description":"Lorem ipsum dolor sit amet."
+      "name":"Digging into a Linux Kernel",
+      "time": "10h00",
+      "speaker": "Linus Torvalds",
+      "description":"Lorem ipsum dolor sit amet."
     },
     {
-       "name":"Introducing Windows 12",
-       "time": "10h00",
-       "speaker": "Bill Gates",
-       "description":"Lorem ipsum dolor sit amet."
+      "name":"Introducing Windows 12",
+      "time": "10h00",
+      "speaker": "Bill Gates",
+      "description":"Lorem ipsum dolor sit amet."
     },
     {
-       "name":"Digging into a Linux Kernel",
-       "time": "10h00",
-       "speaker": "Linus Torvalds",
-       "description":"Lorem ipsum dolor sit amet.",
-       "room":"Auditorium 1"
+      "name":"Digging into a Linux Kernel",
+      "time": "10h00",
+      "speaker": "Linus Torvalds",
+      "description":"Lorem ipsum dolor sit amet.",
+      "room":"Auditorium 1"
     },
     {
-       "name":"Digging into a Linux Kernel",
-       "time": "10h00",
-       "speaker": "Linus Torvalds",
-       "description":"Lorem ipsum dolor sit amet.",
-       "room":"Auditorium 1"
+      "name":"Digging into a Linux Kernel",
+      "time": "10h00",
+      "speaker": "Linus Torvalds",
+      "description":"Lorem ipsum dolor sit amet.",
+      "room":"Auditorium 1"
     },
     {
-       "name":"Digging into a Linux Kernel",
-       "time": "10h00",
-       "speaker": "Linus Torvalds",
-       "description":"Lorem ipsum dolor sit amet.",
-       "room":"Auditorium 1"
+      "name":"Digging into a Linux Kernel",
+      "time": "10h00",
+      "speaker": "Linus Torvalds",
+      "description":"Lorem ipsum dolor sit amet.",
+      "room":"Auditorium 1"
     },
     {
-       "name":"Close",
-       "time":"",
-       "date":"day1"
+      "name":"Close",
+      "time":"",
+      "date":"day1"
     }
 
   ],
@@ -237,12 +237,12 @@
 
   ],
 
-   "deploy":{
-      "rsync":{
-        "username":"",
-        "hostname": "",
-        "dest": ""
-      }
-   }
+  "deploy":{
+    "rsync":{
+      "username":"",
+      "hostname": "",
+      "dest": ""
+    }
+  }
 
 }
