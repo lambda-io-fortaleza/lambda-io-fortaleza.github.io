@@ -7,7 +7,7 @@ var gulp      = require('gulp')
     ,imagemin = require('gulp-imagemin');
 
 // Call Imagemin
-module.exports = gulp.task('imagemin', function () {
+module.exports = gulp.task('img-min', ['img-clean'], function () {
   return gulp.src('src/images/**/*')
     .pipe(plumber())
     .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
