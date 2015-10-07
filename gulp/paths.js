@@ -10,9 +10,19 @@ module.exports = {
         files: {
             config: './src/config.json',
             jade: 'src/templates/*.jade',
-            sass: 'src/styles/main.scss'
+            sass: 'src/styles/main.scss',
+            js:[
+              'src/scripts/ryejs.js',
+              'src/scripts/components.js',
+              'src/scripts/smooth-scroll.js',
+              'src/scripts/component.form-label-dynamic.js',
+              'src/scripts/component.google-analytics.js',
+              'src/scripts/component.navigation.js',
+              'src/scripts/component.navigation-mobile.js',
+              'src/scripts/konami-code.js',
+              'src/scripts/boot.js'
+            ]
         }
-
     },
 
     browserSync: {
