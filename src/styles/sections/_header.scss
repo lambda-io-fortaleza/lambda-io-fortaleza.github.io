@@ -1,13 +1,8 @@
 .section-header {
   color: $black;
-  background-image: url('../img/amsterdam_bw.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  @include respond-equal(sm) {
-    background-image: url('../img/amsterdam_bw_768.jpg');
-  }
 
   .wrapper {
     text-align: center;
