@@ -17,8 +17,8 @@ module.exports = {
               'src/scripts/smooth-scroll.js',
               'src/scripts/component.form-label-dynamic.js',
               'src/scripts/component.google-analytics.js',
-              'src/scripts/component.navigation.js',
               'src/scripts/component.navigation-mobile.js',
+              'src/scripts/component.navigation.js',
               'src/scripts/konami-code.js',
               'src/scripts/boot.js'
             ]
