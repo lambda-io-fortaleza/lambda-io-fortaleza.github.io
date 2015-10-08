@@ -1,8 +1,10 @@
 section#organizers.section.section-organizers.text-center(data-track="view", data-track-category="Section", data-track-label="#{labels.sections[6].label}")
 
   .wrapper
+
     h1.section-title
       span #{labels.sections[6].label}
+
     p #{labels.messages.organizers.message}
 
     .organizers.grid.grid-padded
@@ -15,4 +17,5 @@ section#organizers.section.section-organizers.text-center(data-track="view", dat
             h1.organizer-name #{organizer.name}
 
     p
+
     a.btn-default(href="mailto:#{about.contact.email}", data-track="click", data-track-category="Organizers", data-track-label="Contact us") #{labels.messages.contact}
