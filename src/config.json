@@ -149,35 +149,45 @@
     },
     {
       "name":"Introducing Windows 12",
-      "time": "10h00",
+      "time": "11h00",
       "speaker": "Bill Gates",
       "description":"Lorem ipsum dolor sit amet."
     },
     {
-      "name":"Digging into a Linux Kernel",
-      "time": "10h00",
-      "speaker": "Linus Torvalds",
+      "name": "Lunch",
+      "time": "12h00"
+    },
+    {
+      "name":"How to kill a elephant with one finger",
+      "time": "13h00",
+      "speaker": "Chuck Norris",
       "description":"Lorem ipsum dolor sit amet.",
       "room":"Auditorium 1"
     },
     {
-      "name":"Digging into a Linux Kernel",
-      "time": "10h00",
-      "speaker": "Linus Torvalds",
+      "name":"Presenting iPad",
+      "time": "14h00",
+      "speaker": "Steve Jobs",
       "description":"Lorem ipsum dolor sit amet.",
       "room":"Auditorium 1"
     },
     {
-      "name":"Digging into a Linux Kernel",
-      "time": "10h00",
-      "speaker": "Linus Torvalds",
+      "name":"Check-in / Breakfast",
+      "time":"15h00"
+    },
+    {
+      "name":"Revealing Facebook Secrets",
+      "time":  "16h00",
+      "speaker": "Mark Zuckerberg",
       "description":"Lorem ipsum dolor sit amet.",
       "room":"Auditorium 1"
     },
     {
-      "name":"Close",
-      "time":"",
-      "date":"day1"
+      "name":"Why do I prefer Android over iPhone",
+      "time": "17h00",
+      "speaker": "Steve Wozniak",
+      "description":"Lorem ipsum dolor sit amet.",
+      "room":"Auditorium 1"
     }
 
   ],
