@@ -4,9 +4,9 @@ nav.nav(role="navigation", data-component="navigation")
 
     ul.nav-menu
 
-    each section in labels.sections
+      each section in labels.sections
 
-      li.nav-item.hidden-md
-        a(data-scroll="", href="##{section.name}", data-track="click", data-track-category="Navigation", data-track-label="#{section.label}") #{section.label}
+        li.nav-item.hidden-md
+          a(data-scroll="", href="##{section.name}", data-track="click", data-track-category="Navigation", data-track-label="#{section.label}") #{section.label}
 
 button.visible-sm.nav-open.btn-primary.btn-small(data-component="navigation-mobile", aria-label="Menu", data-track="click", data-track-category="Navigation", data-track-label="Mobile Toggle")
