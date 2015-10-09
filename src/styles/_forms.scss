@@ -1,83 +1,7 @@
-.form-register {
-  .form-input {
-    width: 200px;
-  }
-}
-
-.form-inline {
-  display: inline-block;
-  margin: 0 auto;
-
-  @include respond-larger(md) {
-    .form-field,
-    .form-footer {
-      float: left;
-    }
-  }
-}
-
-.form-field,
-.form-footer {
-  position: relative;
-  margin: 10px;
-}
-
-.form-label {
-  position: absolute;
-  top: 50%;
-  left: 10px;
-  transform: translateY(-50%);
-  transition: all 0.2s ease;
-  pointer-events: none;
-}
-
-.form-input {
-  line-height: 21px;
-  margin: 0;
-  padding: 14px 10px;
-  border: 1px solid $gray;
-  border-radius: 3px;
-  background-color: transparent;
-  color: $black;
-  font-size: em(16);
-  vertical-align: top;
-  -webkit-appearance: none;
-
-  &:hover, &:focus {
-    border-color: $dark-gray;
-    outline: 0;
-  }
-
-  &[disabled] {
-    color: $gray;
-    background-color: $gray;
-  }
-}
-
-.form-field.-has-content {
-  .form-label {
-    font-size: 80%;
-    transform: translateY(-105%);
-
-    @include respond-equal(sm) {
-      transform: translateY(-125%);
-    }
-  }
-  .form-input {
-    padding: 20px 10px 6px;
-  }
-}
-
-.form-field-on-sky-with-diamonds {
-  position: absolute;
-  left: -5000px;
-}
-
 .btn-default,
 .btn-info,
 .btn-primary,
-.btn-danger,
-.tito-tickets-button {
+.btn-danger {
   @extend a;
   display: inline-block;
   line-height: 21px;
@@ -118,8 +42,7 @@
   }
 }
 
-.btn-primary,
-.tito-tickets-button {
+.btn-primary {
   color: $white;
   border-color: transparent;
   background-color: $primary-color;

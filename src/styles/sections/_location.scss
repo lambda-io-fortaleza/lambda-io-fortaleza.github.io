@@ -1,50 +1,18 @@
 .section-location {
-  .location-photo {
-    background-size: cover;
-  }
-  .location-photo-1 {
-    background-image: url(../img/photos/tobacco-1.jpg);
-    height: 500px;
-  }
-  .location-photo-2 {
-    background-image: url(../img/photos/tobacco-2.jpg);
-    height: 250px;
-  }
-  .location-photo-3 {
-    background-image: url(../img/photos/tobacco-3.jpg);
-    height: 250px;
-  }
+
   .location-map {
     height: 500px;
   }
 
   @include respond-equal(sm) {
-    .location-photo-1 {
-      background-image: url(../img/photos/tobacco-1_768.jpg);
-    }
-    .location-photo-2 {
-      background-image: url(../img/photos/tobacco-2_768.jpg);
-    }
-    .location-photo-3 {
-      background-image: url(../img/photos/tobacco-3_768.jpg);
-    }
-    .location-photo-1,
-    .location-photo-2,
-    .location-photo-3,
     .location-map {
       height: 200px;
     }
   }
 
   @include respond-equal(md) {
-    .location-photo-1,
     .location-map {
       height: 400px;
-    }
-
-    .location-photo-2,
-    .location-photo-3 {
-      height: 200px;
     }
   }
 }
