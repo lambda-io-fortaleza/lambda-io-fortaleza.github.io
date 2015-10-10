@@ -21,7 +21,8 @@ module.exports = {
               'src/scripts/component.navigation.js',
               'src/scripts/konami-code.js',
               'src/scripts/boot.js'
-            ]
+            ],
+            tests: 'nightwatch.json'
         }
     },
 
