@@ -1,7 +1,13 @@
 ### Folders ###
 node_modules
 www
+reports
+temp
+screenshots
 
 ### Files ###
 **/npm-debug.log
 **/.DS_Store
+sauce_connect_log.txt
+sauce_connect*.txt
+phantomjsdriver.log
