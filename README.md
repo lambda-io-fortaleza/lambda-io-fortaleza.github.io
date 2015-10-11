@@ -4,61 +4,27 @@
 [![Dependency Status](https://david-dm.org/mabrasil/lumberpack.png)](https://david-dm.org/mabrasil/lumberpack)
 [![devDependency Status](https://david-dm.org/mabrasil/lumberpack/dev-status.svg)](https://david-dm.org/mabrasil/lumberpack#info=devDependencies)
 
-# The 21st Century's Lumberjack's Boilerplate
+# Conf Boilerplate
 
-![The tooling kit for modern lumbers](src/images/logo.png)
+![Logo](src/images/logo.png)
 
-> A simple boilerplate to easily bootstrap projects with a bunch of cool technologies.
+> A simple boilerplate to help those people who wants to organize conferences/events and don't have too much time to create the website of it.
 
-##Table of Contents
+## Table of Contents
 
-- [What's inside?](#whats-inside)
+- [How it works?](#how-it-works)
 - [Using](#using)
 - [Contributing](#contributing)
 - [License](#license)
 - [Credits](#credits)
 
-## What's inside?
+## How it works?
 
-Well, a modern lumberjack has many modern needings and it is only fair that (s)he uses some of the coolest
-technologies we have today, so this boilerplate includes:
+> For more detais about the stack, see [this](docs/how-it-works.md).
 
-### Livescript
-
-[LiveScript](http://livescript.net/) is a JavaScript preprocessor which has a pretty *beautiful syntax* and
-supports functional programming with lovable features like *currying*, *function composition*, *pattern matching* and
-many other ones borrowed from languages like [Haskell](https://www.haskell.org/).
-
-### Jade
-
-The  [Jade Engine](http://jade-lang.com/)  is one of the most powerful template engines we have nowadays and its use is intended to make the app templates' code more beautiful and **easier to maintain**. It also aims to solve some problems such as missing or mal-matched closing tags.
-
-### Stylus
-
-[Stylus](https://learnboost.github.io/stylus/) has everything that modern *CSS preprocessors* should have: *variables*,
-*mixins*, *nesting*, *extending* and many other cool things. And it's writen in Javascript and runs in *NodeJS*.
-
-#### Stylint
-
-Personally, I do think that one of the points considered as favorable to Stylus may not be that good: a more permissive syntax. But we can use a [linter](https://github.com/rossPatton/stylint) to make things more strict and enjoy the benefits of a *full JS-based stack*.
-
-#### Skeleton
-
-[Skeleton](http://getskeleton.com/) which is an amazingly simple and responsive boilerplate for Mobile-Friendly
-development.
-
-All styles used here were taken from *Skeleton*'s original styles and ported to *Stylus*.
-
-### Gulp
-
-*Stream-based build system*, *code over configuration*, *idiomatic Node modules*, a *simple and elegant API*...
-There are many reasons why [Gulp](http://gulpjs.com/) can be a good bet on task runners.
-
-Here we have many cool plugins like `Browser Sync` - which allows you to sync all your devices and even make
-livereloading -, `Jade`, `Stylus`, `Imagemin` and many other good ones.
-
-In this project, we also prevent your `gulpfile.js` from growing too large by splitting it into multiple files,
-with one task per file. You can check out the [tasks directory](gulp/tasks) to see how it works.
+This boilerplate uses some of the coolest technologies we have today, like:
+the [Jade Engine](http://jade-lang.com/), [SASS](http://sass-lang.com/),
+[Gulp](http://gulpjs.com/) and *many others*.
 
 ## Using
 
