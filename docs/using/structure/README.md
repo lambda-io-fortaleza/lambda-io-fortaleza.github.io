@@ -1,6 +1,6 @@
 # Structure
 
-If everything from the [Getting Started](../README.md#getting-started) section goes well, you should have this:
+If everything from the [Getting Started](README.md#getting-started) section goes well, you should have this:
 
 ```
 |-- docs/
