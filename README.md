@@ -20,7 +20,7 @@
 
 ## How it works?
 
-> For more detais about the stack, see [this](docs/how-it-works.md).
+> For more detais about the stack, see [this](docs/how-it-works).
 
 This boilerplate uses some of the coolest technologies we have today, like:
 the [Jade Engine](http://jade-lang.com/), [SASS](http://sass-lang.com/),
@@ -30,16 +30,16 @@ the [Jade Engine](http://jade-lang.com/), [SASS](http://sass-lang.com/),
 
 ### Getting Started
 
-Make sure you have the main dependencies to run this boilerplate:
+Make sure you have the main dependencies:
 
+- [Git](http://git-scm.com/downloads)
 - [NodeJS](http://nodejs.org/)
 - [GulpJS](http://gulpjs.com/)
-- [Livescript](http://livescript.net/)
 
 Clone this repository:
 
 ```sh
-$ git clone https://github.com/mabrasil/lumberpack.git my_project
+$ git clone https://github.com/mabrasil/conf-boilerplate.git my_event
 ```
 
 Install all dependencies:
@@ -55,13 +55,14 @@ Run the default gulp task:
 $ gulp
 ```
 
-### Next Steps
+### Structure
 
-#### Understand the Folders and Files structure
+> For more detais about the Folders and Files structure, see [this](docs/structure).
 
 If everything from the [Getting Started](#getting-started) section goes well, you should have this:
 
 ```
+|-- docs/
 |-- gulp/
 |-- src/
 |   |-- images/
@@ -79,10 +80,59 @@ If everything from the [Getting Started](#getting-started) section goes well, yo
 |-- .editorconfig
 |-- .stylintrc
 |-- gulpfile.js
+|-- nightwatch.json
 |-- package.json
 ```
 
-#### Understand the Gulp Tasks
+Now let's find out what each one of those files and folders mean.
+
+P.S.: Some very commom files - or less important - are shown here, such as the `.md` ones - *README*, *LICENSE* *CONTRIBUTING* -, the CIs tracking files like `.codeclimate.yml` or `.travis.yml` and others.
+
+#### [`docs/`](/docs/)
+
+Contains some *markdown-written* documentation.
+
+#### [`gulp/`](/gulp/)
+
+Contains the module with all the *gulp tasks*.
+
+#### [`src/images/`](/src/images/)
+
+Contains the *images* that will be used in your site.
+
+#### [`src/scripts/`](/src/scripts/)
+
+Contains the *scripts* that will be used in your site.
+
+#### [`src/styles/`](/src/styles/)
+
+Contains the *styles* - written in *Stylus* - that will be used in your site.
+
+#### [`src/templates/`](/src/templates/)
+
+Contains the *tamplates* - written in *Jade* - that will be used in your site.
+
+#### [`src/config.json`](/src/config.json)
+
+Contains all info from your event that will be rendered in the templates.
+
+#### www/
+
+This is where the generated files are stored, once the tasks are finished. However, this directory is unnecessary in versioning, so it's [ignored](.gitignore).
+
+#### [`gulpfile.js`](gulpfile.js)
+
+Calls the gulp tasks.
+
+#### [`nightwatch.json`](nightwatch.json)
+
+Contains some *testing* configuration.
+
+#### [`package.json`](package.json)
+
+Contains many metadata relevant to the project.
+
+### Understand the Gulp Tasks
 
 All the Gulp tasks are in the [`tasks/`](gulp/tasks) folder. Each one consists of a module with a function which is required into tasks defined in the [`gulpfile`](https://github.com/mabrasil/lumberpack/blob/master/gulpfile.js).
 
@@ -95,7 +145,7 @@ All the Gulp tasks are in the [`tasks/`](gulp/tasks) folder. Each one consists o
 - `gulp -p`: Minify all files for production
 - `gulp build -p`: Minify files and deploy via rsync
 
-#### Setup the project's basic info
+### Setup the project's basic info
 
 Some of basic info from your site will be rendered from a [`config.json`](/src/config.json) file. This is done to make it easier
 to change some general data - like the site *name* or *descrption*. The `config.json` initial structure is:
