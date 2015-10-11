@@ -29,7 +29,7 @@ and many other good ones.
 
 In this project, we also prevent your `gulpfile.js` from growing too large by
 splitting it into multiple files, with one task per file. You can check out
-the [tasks directory](gulp/tasks) to see how it works.
+the [tasks directory](../gulp/tasks) to see how it works.
 
 ### Nightwatch.js
 
