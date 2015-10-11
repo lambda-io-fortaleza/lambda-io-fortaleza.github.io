@@ -20,7 +20,7 @@
 
 ## How it works?
 
-> For more detais about the stack, see [this](docs/how-it-works).
+> For more details about the stack, see [this](docs/how-it-works).
 
 This boilerplate uses some of the coolest technologies we have today, like:
 the [Jade Engine](http://jade-lang.com/), [SASS](http://sass-lang.com/),
@@ -57,7 +57,7 @@ $ gulp
 
 ### Structure
 
-> For more detais about the Folders and Files structure, see [this](docs/using/structure).
+> For more details about the Folders and Files structure, see [this](docs/using/structure).
 
 If everything from the [Getting Started](#getting-started) section goes well, you should have this:
 
@@ -84,6 +84,53 @@ If everything from the [Getting Started](#getting-started) section goes well, yo
 |-- package.json
 ```
 
+### Customization
+
+> For more details about customizing your project, see [this](docs/using/customization).
+
+The project already comes with a visual template, feel free to use it, but we recommend you create your own in order to put your own identity in the event.
+
+Anyway, we have prepared something highly customizable for you, so for most of the changes just go to the [`config.json`](/src/config.json) file and change the value of variables.
+
+#### Basic information about the conference
+
+Do you want to change the name, date, address, city or price of the conference?
+Go ahead! Here you also put site details and conference contact info.
+
+```json
+"about":{
+
+  "name":"Conference name",
+  "shortDescription":"Conference description",
+  "longDescription":"So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things. That's why we created this project!",
+  "date":"November 15",
+  "logo":"img/logo.png",
+  "register":{
+    "message":"Register now!",
+    "link":"https://www.eventick.com.br"
+  },
+  "location":{
+    "place":"Coco Bongo",
+    "address":"Boulevard Kukulcan, 30",
+    "city":"Cancún",
+    "state":"Quintana",
+    "mapsKey":"AIzaSyBA8zmp_Mwlz19cazVlsox7QF-apmKtOQY"
+  },
+  "site":{
+    "url":"Conference Example",
+    "googleAnalytics": "UA-33656081-1"
+  },
+  "contact":{
+    "email":"conf@example.com",
+    "twitter":"@example",
+    "facebook":"example.conf",
+    "github":"example.conf"
+  }
+
+}
+```
+
+
 ### Understand the Gulp Tasks
 
 All the Gulp tasks are in the [`tasks/`](gulp/tasks) folder. Each one consists of a module with a function which is required into tasks defined in the [`gulpfile`](https://github.com/mabrasil/lumberpack/blob/master/gulpfile.js).
@@ -96,47 +143,6 @@ All the Gulp tasks are in the [`tasks/`](gulp/tasks) folder. Each one consists o
 - `gulp watch`: Call to watch files
 - `gulp -p`: Minify all files for production
 - `gulp build -p`: Minify files and deploy via rsync
-
-### Setup the project's basic info
-
-Some of basic info from your site will be rendered from a [`config.json`](/src/config.json) file. This is done to make it easier
-to change some general data - like the site *name* or *descrption*. The `config.json` initial structure is:
-
-```json
-{
-  "name": "",
-  "description": "",
-  "image": "",
-  "favicon": "",
-  "url": "",
-  "facebookType": "",
-  "twitterType": ""
-}
-```
-
-These are the data given by `config.json`:
-
-- `name`: Indicates the *name* that will be used in the following *metatags*: `title`, `og:title`, `og:site_name` and `twitter:title`.
-- `description`: Indicates the *description* that will be used in the following *metatags*: `description`, `og:description`, and `twitter:description`.
-- `image`: Indicates the **URL** of the *image* that will be used in the following *metatags*: `og:image` and `twitter:image:src`.
-- `favicon`: Indicates the **URL** of the *image* that will be used as your *favicon*.
-- `url`: Indicates the *url* that will be used in the following *metatags*: `og:url` and `twitter:url`.
-- `facebookType`: Indicates what will be used in the `og:type` *metatag*. You can check more info about it [here](http://ogp.me/#types).
-- `twitterType`: Indicates what will be used in the `twitter:card` *metatag*. You can check more info about it [here](https://dev.twitter.com/cards/types).
-
-For example:
-
-```json
-{
-  "name": "Lumberpack",
-  "description": "Lumberpack is a simple boilerplate to easily bootstrap projects with a bunch of cool technologies.",
-  "image": "img/logo.png",
-  "favicon": "img/favicon.png",
-  "url": "https://github.com/mabrasil/lumberpack",
-  "facebookType": "article",
-  "twitterType": "summary_large_image"
-}
-```
 
 ## Contributing
 
