@@ -69,18 +69,18 @@
       "getTickets": "Get Tickets",
       "moreInformation": "More Information",
       "sponsors":{
-        "description": "More Information",
+        "description": "A very special thanks to our sponsors who believe and are fundamental to the event.",
+        "invitation": "Sponsor us to be part of this event, and benefit from this unique environment.",
         "moreInformation": "More Information",
-        "invitation": "More Information",
         "mediakit": "#"
       },
       "partners":{
-        "description": "More Information",
+        "description": "A very special thanks to our partners who believe and are fundamental to the event.",
+        "invitation": "Help us and be part of this event, and benefit from this unique environment.",
         "moreInformation": "More Information",
-        "invitation": "More Information",
         "mediakit": "#"
       },
-      "organizers": "More Information",
+      "organizers": "This event is brought to you by they:",
       "contact": "Get in Touch",
       "footer":"Made with ♥ by Conf Boilerplate :)"
 
