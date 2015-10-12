@@ -4,7 +4,18 @@
   "description": "A simple boilerplate to easily create beautiful sites for your meetups.",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "karma start"
+    "server": "gulp",
+    "js": "gulp js",
+    "jade": "gulp jade",
+    "sass": "gulp sass",
+    "img-clean": "gulp img-clean",
+    "img-min": "gulp img-min",
+    "watch": "gulp watch",
+    "deploy-gh": "gulp deploy-gh",
+    "deploy-rsync": "gulp deploy-rsync",
+    "build-gh": "gulp build-gh",
+    "build-rsync": "gulp build-rsync",
+    "test": "gulp tests"
   },
   "dependencies": {
     "gulp": "3.9.0",
