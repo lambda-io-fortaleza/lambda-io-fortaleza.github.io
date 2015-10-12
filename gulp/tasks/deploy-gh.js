@@ -6,7 +6,7 @@ var gulp     = require('gulp')
     ,ghPages = require('gulp-gh-pages');
 
 // Deploy to GitHub Pages
-module.exports = gulp.task('deploy-pages', function () {
+module.exports = gulp.task('deploy-gh', function () {
   return gulp.src(paths.build.html)
   .pipe(ghPages());
 });
