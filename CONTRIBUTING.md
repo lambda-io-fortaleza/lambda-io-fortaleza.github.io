@@ -2,8 +2,10 @@
 
 ## Table of Contents
 
+- [Testing](#testing)
 - [Versioning](#versioning)
 - [Reporting a bug](#reporting-a-bug)
+- [Adding your site to the showcase](adding-your-site-to-the-showcase)
 - [The 5 magic steps](#the-5-magic-steps)
 - [License](#license)
 
@@ -11,7 +13,7 @@
 
 This project implments *e2e testing* via Selenium + Nightwatchjs + Chrome.
 
-All tests files can be found in the [`tests`](tests) directory. If you wanna add
+All tests files can be found in the [`tests`](./tests) directory. If you wanna add
 any features, it is recommended that you test them before sending your *Pull
 Request*.
 
@@ -44,10 +46,10 @@ If we find an issue that's related, we will reference it and close your issue, s
 1. Include any errors that may be displayed (see [Chrome Console instructions](https://developer.chrome.com/devtools/docs/console#opening_the_console) for how to do that).
 1. Update us if you have any new info, or if the problem resolves itself!
 
-## Adding your site to the [Showcase](./README.md#showcase)
+## Adding your site to the [Showcase](README.md#showcase)
 
 1. Fork it!
-1. Go to the [Showcase](./README.md#showcase) section and add your site as
+1. Go to the [Showcase](README.md#showcase) section and add your site as
 the following:
   `* [<Event Name>](<event site URL>) ([source code](<github repo URL>))`
 1. Submit a pull request as the following:
