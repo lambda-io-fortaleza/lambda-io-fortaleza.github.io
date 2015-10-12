@@ -129,13 +129,13 @@ Go ahead! Here you also put site details and conference contact info.
 }
 ```
 
-### Labels (i18n)
+#### Labels (i18n)
 
 If you want to use different words than default or different language
 just change labels for corresponding elements:
 
 
-```
+```json
 "labels": {
 
   "sections":[
@@ -292,18 +292,32 @@ To add/change/exclude a partner, just see `partners` variable.
   }
 ]
 ```
-### Understand the Gulp Tasks
+### Workflow
+
+> For more details about the automation process, see [this](docs/using/workflow).
 
 All the Gulp tasks are in the [`tasks/`](gulp/tasks) folder. Each one consists of a module with a function which is required into tasks defined in the [`gulpfile`](https://github.com/mabrasil/lumberpack/blob/master/gulpfile.js).
 
 - `gulp`: Initialize watch for changes and a server
-- `gulp ls`: Compile Livescript files
+- `gulp js`: Minify and concat files
 - `gulp jade`: Compile Jade files
-- `gulp stylus`: Compile Stylus files
-- `gulp imagemin`:Compress image files
+- `gulp sass`: Compile SASS files
+- `gulp img-clean`: Clean images
+- `gulp img-min`: Clean images folder and compress image files
 - `gulp watch`: Call to watch files
-- `gulp -p`: Minify all files for production
-- `gulp build -p`: Minify files and deploy via rsync
+- `gulp deploy-gh`: Deploy to Github Pages
+- `gulp deploy-rsync`: Deploy via rsync
+- `gulp build-gh`: Minify files and deploy to Github Pages
+- `gulp build-rsync`: Minify files and deploy via rsync
+- `gulp tests`: Run nightwatch.js - see [development]()
+
+## Showcase
+
+> Have you created a website using ConfBoilerplate? Let's us know :)
+
+See the conferences that already used this project as a kickstart:
+
+- [JS4Girls Fortaleza](http://js4girls-fortaleza.github.io)
 
 ## Contributing
 
@@ -340,10 +354,4 @@ the MIT License.
 
 ## Credits
 
-- All styles were taken from [Dave Gamache](https://github.com/dhg)'s [Skeleton](https://github.com/dhg/Skeleton).
-
-- Part of this project's original structure - some tasks and directories organization - was tasks taken
-from [Willian Justen](https://github.com/willianjusten)'s [Fast Boilerplate](https://github.com/willianjusten/Fast) -
-maybe now the two projects look very different.
-
-- Font used in logo: [Pinewood](http://www.fontspace.com/rick-mueller/pinewood) by [Rick Mueller](http://moorstation.org/typoasis/designers/mueller/).
+- All styles were taken from
