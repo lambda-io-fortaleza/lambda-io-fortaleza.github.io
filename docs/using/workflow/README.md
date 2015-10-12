@@ -1,6 +1,6 @@
 # Workflow
 
-All the Gulp tasks are in the [`tasks/`](gulp/tasks) folder. Each one consists of a module with a function which is required into tasks defined in the [`gulpfile`](https://github.com/mabrasil/lumberpack/blob/master/gulpfile.js).
+All the Gulp tasks are in the [`tasks/`](./../gulp/tasks) folder. Each one consists of a module with a function which is required into tasks defined in the [`gulpfile`](./../gulpfile.js).
 
 - `gulp`: Initialize watch for changes and a server
 - `gulp js`: Minify and concat files
@@ -13,7 +13,7 @@ All the Gulp tasks are in the [`tasks/`](gulp/tasks) folder. Each one consists o
 - `gulp deploy-rsync`: Deploy via rsync
 - `gulp build-gh`: Minify files and deploy to Github Pages
 - `gulp build-rsync`: Minify files and deploy via rsync
-- `gulp tests`: Run nightwatch.js - see [development]()
+- `gulp tests`: Run nightwatch.js - see [testing](./../CONTRIBUTING.md#testing)
 
 If you usually do automation via `npm run <script>`, all the gulp tasks above
 are declared in the npm `scripts` obejct, so feel free to run:
@@ -29,4 +29,4 @@ are declared in the npm `scripts` obejct, so feel free to run:
 - `npm run deploy-rsync`: Deploy via rsync
 - `npm run build-gh`: Minify files and deploy to Github Pages
 - `npm run build-rsync`: Minify files and deploy via rsync
-- `npm test`: Run nightwatch.js - see [development]()
+- `npm test`: Run nightwatch.js - see [testing](./../CONTRIBUTING.md#testing)

@@ -1,15 +1,15 @@
-## How it works?
+# How it works?
 
 This boilerplate uses some of the coolest technologies we have today:
 
-### Jade
+## Jade
 
 The  [Jade Engine](http://jade-lang.com/) is one of the most powerful template
 engines we have nowadays and its use is intended to make the app templates' code
 more beautiful and **easier to maintain**. It also aims to solve some problems
 such as missing or mal-matched closing tags.
 
-### SASS
+## SASS
 
 [SASS](http://sass-lang.com/) has everything that modern *CSS preprocessors*
 should have: *variables*, *mixins*, *nesting*, *extending* and many other cool
@@ -17,7 +17,7 @@ things. Instead of the tradiotional implementation of SASS, this project uses
 [node-sass](https://github.com/sass/node-sass) which are *Node.js* bindings to
 [libsass](https://github.com/sass/libsass).
 
-### Gulp
+## Gulp
 
 *Stream-based build system*, *code over configuration*, *idiomatic Node modules*,
 a *simple and elegant API*... There are many reasons why
@@ -29,9 +29,9 @@ and many other good ones.
 
 In this project, we also prevent your `gulpfile.js` from growing too large by
 splitting it into multiple files, with one task per file. You can check out
-the [tasks directory](../gulp/tasks) to see how it works.
+the [tasks directory](./gulp/tasks) to see how it works.
 
-### Nightwatch.js
+## Nightwatch.js
 
 Unit tests are fundamental for finding bugs, but some of them happen when we
 get components to work together - which can't be captured in a unit test - and
