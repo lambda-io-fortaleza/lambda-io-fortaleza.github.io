@@ -1,8 +1,7 @@
-[ ![Codeship Status for mabrasil/lumberpack](https://codeship.com/projects/e5c0fd40-146c-0133-f7df-26b4121038d9/status?branch=master)](https://codeship.com/projects/93079)
-[![Build Status](https://travis-ci.org/mabrasil/lumberpack.svg?branch=master)](https://travis-ci.org/mabrasil/lumberpack)
-[![Code Climate](https://codeclimate.com/github/mabrasil/lumberpack/badges/gpa.svg)](https://codeclimate.com/github/mabrasil/lumberpack)
-[![Dependency Status](https://david-dm.org/mabrasil/lumberpack.png)](https://david-dm.org/mabrasil/lumberpack)
-[![devDependency Status](https://david-dm.org/mabrasil/lumberpack/dev-status.svg)](https://david-dm.org/mabrasil/lumberpack#info=devDependencies)
+[![Build Status](https://travis-ci.org/mabrasil/conf-boilerplate.svg?branch=master)](https://travis-ci.org/mabrasil/conf-boilerplate)
+[![Code Climate](https://codeclimate.com/github/mabrasil/conf-boilerplate/badges/gpa.svg)](https://codeclimate.com/github/mabrasil/conf-boilerplate)
+[![Dependency Status](https://david-dm.org/mabrasil/conf-boilerplate.png)](https://david-dm.org/mabrasil/conf-boilerplate)
+[![devDependency Status](https://david-dm.org/mabrasil/conf-boilerplate/dev-status.svg)](https://david-dm.org/mabrasil/conf-boilerplate#info=devDependencies)
 
 # Conf Boilerplate
 
@@ -296,7 +295,7 @@ To add/change/exclude a partner, just see `partners` variable.
 
 > For more details about the automation process, see [this](docs/using/workflow).
 
-All the Gulp tasks are in the [`tasks/`](gulp/tasks) folder. Each one consists of a module with a function which is required into tasks defined in the [`gulpfile`](https://github.com/mabrasil/lumberpack/blob/master/gulpfile.js).
+All the Gulp tasks are in the [`tasks/`](gulp/tasks) folder. Each one consists of a module with a function which is required into tasks defined in the [`gulpfile`](https://github.com/mabrasil/conf-boilerplate/blob/master/gulpfile.js).
 
 - `gulp`: Initialize watch for changes and a server
 - `gulp js`: Minify and concat files
