@@ -9,9 +9,14 @@ var generalTests = {
       .url('http://localhost:3000/')
       // Loading time 1 second
       .waitForElementVisible('body', 1000)
+  },
+
+  'Page Title' : function (client) {
+    client
       // Assert Page title
-      .assert.title(about.name)
-  }
+      .assert.title(config.about.name)
+      .end();
+  },
 };
 
 module.exports = generalTests;
