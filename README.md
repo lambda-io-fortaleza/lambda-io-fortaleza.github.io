@@ -309,7 +309,7 @@ All the Gulp tasks are in the [`tasks/`](gulp/tasks) folder. Each one consists o
 - `gulp deploy-rsync`: Deploy via rsync
 - `gulp build-gh`: Minify files and deploy to Github Pages
 - `gulp build-rsync`: Minify files and deploy via rsync
-- `gulp tests`: Run nightwatch.js - see [development]()
+- `gulp tests`: Run nightwatch.js - see [testing](CONTRIBUTING.md#testing)
 
 ## Showcase
 
