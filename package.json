@@ -4,7 +4,7 @@
   "description": "A simple boilerplate to easily create beautiful sites for your meetups.",
   "main": "gulpfile.js",
   "scripts": {
-    "server": "gulp",
+    "start": "gulp",
     "js": "gulp js",
     "jade": "gulp jade",
     "sass": "gulp sass",
