@@ -1,6 +1,12 @@
 The MIT License (MIT)
 
-Copyright (c) 2015 Matheus Brasil
+Based on [Front in Amsterdam site](http://frontinamsterdam.nl),
+Copyright © 2015 [Front in Amsterdam Organizers & Contributors](https://github.com/frontinamsterdam/www/graphs/contributors).
+
+Also based on [Conf Boilerplate ](https://github.com/braziljs/conf-boilerplate),
+MIT License © [BrazilJS Foundation](http://braziljs.org/).
+
+All improvements and changes MIT License © [Matheus Brasil](http://matheusbrasil.com/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

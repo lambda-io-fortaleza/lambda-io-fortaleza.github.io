@@ -313,7 +313,8 @@ All the Gulp tasks are in the [`tasks/`](gulp/tasks) folder. Each one consists o
 
 ## Showcase
 
-> Have you created a website using ConfBoilerplate? Let's us know :)
+> Have you created a website using ConfBoilerplate?
+[Let's us know](CONTRIBUTING.md#adding-your-site-to-the-showcase) :)
 
 See the conferences that already used this project as a kickstart:
 
@@ -326,10 +327,17 @@ Contributions are very welcome! If you'd like to contribute, these
 
 ##License
 
-[Lumberpack](https://github.com/mabrasil/lumberpack) is distributed under the
+[Conf Boilerplate](https://github.com/mabrasil/conf-boilerplate) is distributed under the
 MIT License, available in this repository. All contributions are assumed to be also licensed under
 the MIT License.
 
 ## Credits
 
-- All styles were taken from
+- All markup, scripts and styles were originally written by the Front in
+  Amsterdam organizers. Copyright 2015, [Front in Amsterdam](http://frontinamsterdam.nl).
+  The original repo can be found [here](https://github.com/frontinamsterdam/www).
+
+- The documentation, mocking images & data, themes, purpose, and everything
+  related to the *idea/philosophy* of the project is brought from the
+  [original Conf Boilerplate](https://github.com/braziljs/conf-boilerplate)
+  which is MIT Licensed © [BrazilJS Foundation](http://braziljs.org/).

@@ -5,7 +5,7 @@
 - [Testing](#testing)
 - [Versioning](#versioning)
 - [Reporting a bug](#reporting-a-bug)
-- [Adding your site to the showcase](adding-your-site-to-the-showcase)
+- [Adding your site to the showcase](#adding-your-site-to-the-showcase)
 - [The 5 magic steps](#the-5-magic-steps)
 - [License](#license)
 
@@ -51,8 +51,10 @@ If we find an issue that's related, we will reference it and close your issue, s
 1. Fork it!
 1. Go to the [Showcase](README.md#showcase) section and add your site as
 the following:
-  `* [<Event Name>](<event site URL>) ([source code](<github repo URL>))`
+
+  `- [<Event Name>](<event site URL>) ([source code](<github repo URL>))`
 1. Submit a pull request as the following:
+
   `Add <Event Name> to the showcase`
 
 ## The 5 magic steps
