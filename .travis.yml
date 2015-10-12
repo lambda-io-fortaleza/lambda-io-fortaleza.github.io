@@ -12,7 +12,6 @@ before_install:
   # Set the xvfb screen size to 1280x1024x16
   - "/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1280x1024x16"
   - "sleep 3"
-  - "./node_modules/.bin/start-selenium"
-  - "sleep 3"
 
-script: npm install && gulp build-rsync && selenium-standalone start && npm test
+script:
+  - npm install && npm start && selenium-standalone start && npm test
