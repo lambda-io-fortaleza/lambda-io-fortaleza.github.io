@@ -6,7 +6,7 @@
     "shortDescription":"Evento de ensino de programação web para mulheres.",
     "longDescription":"O JS4Girls é um modelo de eventos sem fins lucrativos, que ocorrem de forma distribuída por todo o país visando a proporcionar a inclusão de mulheres na tecnologia por meio do ensino de algumas tecnologias-chave por trás do desenvolvimento web.",
     "date":"17 de Outubro",
-    "logo":"img/logo.png",
+    "logo":"img/logo.svg",
     "register":{
       "message":"Registre-se agora!",
       "link":"http://even.tc/js4girls-fortaleza"
@@ -56,7 +56,7 @@
       },
       {
         "name": "partners",
-        "label": "Pareceiros"
+        "label": "Parceiros"
       },
       {
         "name": "organizers",
@@ -95,7 +95,7 @@
       "bio":"Empreendedor, desenvolvedor FullStack e palestrante nas horas vagas.",
       "photo":"img/speakers/abraao.jpg",
       "company":"Altum",
-      "twitter":"abraao"
+      "twitter":"abraao4lves"
     },
 
     {
