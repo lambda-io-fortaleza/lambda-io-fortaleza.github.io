@@ -1,6 +1,6 @@
 .section-cover {
   color: $white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url($background);
+  background-color: $background;
 
   @include respond-larger(md) {
     height: 100vh;
@@ -8,7 +8,7 @@
   }
 
   @include respond-equal(sm) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url($background);
+    background-color: $background;
     height: 400px;
     padding-top: $nav-height-lg;
   }
