@@ -2,31 +2,31 @@
 
   "about":{
 
-    "name":"Conference name",
-    "shortDescription":"Conference description",
-    "longDescription":"So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things. That's why we created this project!",
-    "date":"November 15",
+    "name":"JS4Girls Fortaleza",
+    "shortDescription":"Evento de ensino de programação web para mulheres.",
+    "longDescription":"O JS4Girls é um modelo de eventos sem fins lucrativos, que ocorrem de forma distribuída por todo o país visando a proporcionar a inclusão de mulheres na tecnologia por meio do ensino de algumas tecnologias-chave por trás do desenvolvimento web.",
+    "date":"17 de Outubro",
     "logo":"img/logo.png",
     "register":{
-      "message":"Register now!",
-      "link":"https://www.eventick.com.br"
+      "message":"Registre-se agora!",
+      "link":"http://even.tc/js4girls-fortaleza"
     },
     "location":{
-      "place":"Coco Bongo",
-      "address":"Boulevard Kukulcan, 30",
-      "city":"Cancún",
-      "state":"Quintana",
+      "place":"Unifor",
+      "address":"Av. Washington Soares, 1321",
+      "city":"Fortaleza",
+      "state":"CE",
       "mapsKey":"AIzaSyBA8zmp_Mwlz19cazVlsox7QF-apmKtOQY"
     },
     "site":{
-      "url":"Conference Example",
+      "url":"http://js4girls-fortaleza.github.io",
       "googleAnalytics": "UA-33656081-1"
     },
     "contact":{
-      "email":"conf@example.com",
-      "twitter":"@example",
-      "facebook":"example.conf",
-      "github":"example.conf"
+      "email":"matheus.brasil10@gmail.com",
+      "twitter":"",
+      "facebook":"JS4GirlsFortaleza",
+      "github":"js4girls-fortaleza"
     }
 
   },
@@ -36,52 +36,52 @@
     "sections":[
       {
         "name": "about",
-        "label": "About"
+        "label": "Sobre"
       },
       {
         "name": "location",
-        "label": "Location"
+        "label": "Onde"
       },
       {
         "name": "speakers",
-        "label": "Speakers"
+        "label": "Instrutores"
       },
       {
         "name": "schedule",
-        "label": "Schedule"
+        "label": "Agenda"
       },
       {
         "name": "sponsors",
-        "label": "Sponsors"
+        "label": "Patrocinadores"
       },
       {
         "name": "partners",
-        "label": "Partners"
+        "label": "Pareceiros"
       },
       {
         "name": "organizers",
-        "label": "Organizers"
+        "label": "Organizadores"
       }
     ],
 
     "messages":{
 
       "getTickets": "Get Tickets",
-      "moreInformation": "More Information",
+      "moreInformation": "Saiba mais",
       "sponsors":{
-        "description": "A very special thanks to our sponsors who believe and are fundamental to the event.",
-        "invitation": "Sponsor us to be part of this event, and benefit from this unique environment.",
-        "moreInformation": "More Information",
-        "mediakit": "#"
+        "description": "O nosso agradecimento a todos os patrocinadores que fizeram disto possível!",
+        "invitation": "Tem interesse em fazer parte de tudo isso?",
+        "moreInformation": "Saiba mais",
+        "mediakit": "http://js4girls-fortaleza.github.io/media-kit"
       },
       "partners":{
-        "description": "A very special thanks to our partners who believe and are fundamental to the event.",
-        "invitation": "Help us and be part of this event, and benefit from this unique environment.",
-        "moreInformation": "More Information",
-        "mediakit": "#"
+        "description": "O nosso agradecimento a todos os parceiros que fizeram disto possível!",
+        "invitation": "Tem interesse em fazer parte de tudo isso?",
+        "moreInformation": "Saiba mais",
+        "mediakit": "http://js4girls-fortaleza.github.io/media-kit"
       },
-      "organizers": "This event is brought to you by they:",
-      "contact": "Get in Touch",
+      "organizers": "Esse evento é feito por um time de pessoas que querem mudar o mundo!",
+      "contact": "Fale com a gente :)",
       "footer":"Made with ♥ by Conf Boilerplate :)"
 
     }
@@ -91,46 +91,27 @@
   "speakers":[
 
     {
-      "name":"Linus Torvalds",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-      "photo":"img/speakers/speaker.jpg",
-      "company":"Linux Foundation",
-      "twitter":"linus"
+      "name":"Abraão Alves",
+      "bio":"Empreendedor, desenvolvedor FullStack e palestrante nas horas vagas.",
+      "photo":"img/speakers/abraao.jpg",
+      "company":"Altum",
+      "twitter":"abraao"
     },
+
     {
-      "name":"Bill Gates",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-      "photo":"img/speakers/speaker.jpg",
-      "company":"Microsoft",
-      "twitter":"billy95"
+      "name":"Cícero Viana",
+      "bio":"Estudante de análise de sistemas pela Estácio FIC. Desenvolvedor Web há 7 anos e atualmente entusiasta de MEAN, apps híbridos e Python.",
+      "photo":"img/speakers/cicero.jpg",
+      "company":"Casablanca",
+      "twitter":"cicerohen"
     },
+
     {
-      "name":"Chuck Norris",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-      "photo":"img/speakers/speaker.jpg",
-      "company":"Delta Command",
-      "twitter":"littlechuck"
-    },
-    {
-      "name":"Steve Jobs",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-      "photo":"img/speakers/speaker.jpg",
-      "company":"Apple, Inc.",
-      "twitter":"stevie"
-    },
-    {
-      "name":"Mark Zuckerberg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-      "photo":"img/speakers/speaker.jpg",
-      "company":"Facebook",
-      "twitter":"zuck"
-    },
-    {
-      "name":"Steve Wozniak",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-      "photo":"img/speakers/speaker.jpg",
-      "company":"Apple, Inc.",
-      "twitter":"woz"
+      "name":"Vitor Alencar",
+      "bio":"Desenvolvedor FrontEnd apaixonado, com foco em tecnologias novas e escaláveis, cofundador do DEV/IO/FOR. Vitor trabalha atualmente como desenvolvedor front-end na Miltecnologia, e como desenvolvedor de mobile na empresa AgendaKids.",
+      "photo":"img/speakers/vitor.jpg",
+      "company":"Agenda Kids",
+      "twitter":"VitorMalencar"
     }
 
   ],
@@ -138,56 +119,8 @@
   "schedule":[
 
     {
-      "name":"Check-in / Breakfast",
+      "name":"Check-in",
       "time":"9:00"
-    },
-    {
-      "name":"Digging into a Linux Kernel",
-      "time": "10h00",
-      "speaker": "Linus Torvalds",
-      "description":"Lorem ipsum dolor sit amet."
-    },
-    {
-      "name":"Introducing Windows 12",
-      "time": "11h00",
-      "speaker": "Bill Gates",
-      "description":"Lorem ipsum dolor sit amet."
-    },
-    {
-      "name": "Lunch",
-      "time": "12h00"
-    },
-    {
-      "name":"How to kill a elephant with one finger",
-      "time": "13h00",
-      "speaker": "Chuck Norris",
-      "description":"Lorem ipsum dolor sit amet.",
-      "room":"Auditorium 1"
-    },
-    {
-      "name":"Presenting iPad",
-      "time": "14h00",
-      "speaker": "Steve Jobs",
-      "description":"Lorem ipsum dolor sit amet.",
-      "room":"Auditorium 1"
-    },
-    {
-      "name":"Check-in / Breakfast",
-      "time":"15h00"
-    },
-    {
-      "name":"Revealing Facebook Secrets",
-      "time":  "16h00",
-      "speaker": "Mark Zuckerberg",
-      "description":"Lorem ipsum dolor sit amet.",
-      "room":"Auditorium 1"
-    },
-    {
-      "name":"Why do I prefer Android over iPhone",
-      "time": "17h00",
-      "speaker": "Steve Wozniak",
-      "description":"Lorem ipsum dolor sit amet.",
-      "room":"Auditorium 1"
     }
 
   ],
@@ -197,12 +130,7 @@
     {
       "name":"Partner 1",
       "logo":"img/partners/your-logo.jpg",
-      "website":"#"
-    },
-    {
-      "name":"Partner 2",
-      "logo":"img/partners/your-logo.jpg",
-      "website":"#"
+      "website":"http://js4girls-fortaleza.github.io/media-kit"
     }
 
   ],
@@ -212,17 +140,7 @@
     {
       "name":"Sponsor 1",
       "logo":"img/sponsors/your-logo.jpg",
-      "website":"#"
-    },
-    {
-      "name":"Sponsor 2",
-      "logo":"img/sponsors/your-logo.jpg",
-      "website":"#"
-    },
-    {
-      "name":"Sponsor 3",
-      "logo":"img/sponsors/your-logo.jpg",
-      "website":"#"
+      "website":"http://js4girls-fortaleza.github.io/media-kit"
     }
 
   ],
@@ -230,19 +148,29 @@
   "organizers":[
 
     {
-      "name":"Organizer 1",
-      "photo":"img/organizers/organizer.jpg",
-      "website":"#"
+      "name":"Carlos",
+      "photo":"img/organizers/carlos.jpg",
+      "website":"https://br.linkedin.com/pub/carlos-eduardo-c%C3%A2mara-gomes/95/6a2/ba8"
     },
     {
-      "name":"Organizer 2",
-      "photo":"img/organizers/organizer.jpg",
-      "website":"#"
+      "name":"Ian Ramos",
+      "photo":"img/organizers/ian.jpg",
+      "website":"https://www.linkedin.com/in/ianramosc"
     },
     {
-      "name":"Organizer 3",
-      "photo":"img/organizers/organizer.jpg",
-      "website":"#"
+      "name":"Matheus Brasil",
+      "photo":"img/organizers/matheus.jpg",
+      "website":"https://github.com/mabrasil"
+    },
+        {
+      "name":"Sandy Maciel",
+      "photo":"img/organizers/sandy.jpg",
+      "website":"https://www.linkedin.com/in/sandymaciel"
+    },
+    {
+      "name":"Wilmerson Silva",
+      "photo":"img/organizers/wilmerson.jpg",
+      "website":"https://www.linkedin.com/in/wilmersondasilva"
     }
 
   ],
