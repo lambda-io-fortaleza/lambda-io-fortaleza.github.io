@@ -108,7 +108,7 @@
 
     {
       "name":"Vitor Alencar",
-      "bio":"Desenvolvedor FrontEnd apaixonado, com foco em tecnologias novas e escaláveis, cofundador do DEV/IO/FOR. Vitor trabalha atualmente como desenvolvedor front-end na Miltecnologia, e como desenvolvedor de mobile na empresa AgendaKids.",
+      "bio":"Desenvolvedor FrontEnd apaixonado, com foco em tecnologias novas e escaláveis, cofundador do DEV/IO/FOR. Vitor trabalha atualmente como desenvolvedor front-end e mobile na empresa AgendaKids.",
       "photo":"img/speakers/vitor.jpg",
       "company":"Agenda Kids",
       "twitter":"VitorMalencar"
@@ -119,10 +119,53 @@
   "schedule":[
 
     {
-      "name":"Check-in",
+      "name":"Credenciamento e Apresentação do Evento",
       "time":"9:00"
+    },
+    {
+      "name":"Introdução ao HTML",
+      "time":"9:30"
+    },
+    {
+      "name":"Introdução à CSS",
+      "time":"10:00"
+    },
+    {
+      "name":"Pausa pra Lanche",
+      "time":"10:30"
+    },
+    {
+      "name":"Introdução ao Javascript",
+      "time":"10:50"
+    },
+    {
+      "name":"Introdução à Lógica",
+      "time":"11:20"
+    },
+    {
+      "name":"Pausa pra almoço",
+      "time":"11:50"
+    },
+    {
+      "name":"Introdução à Estrutura de Dados",
+      "time":"12:40"
+    },
+    {
+      "name":"Funções",
+      "time":"13:40 "
+    },
+    {
+      "name":"Objetos",
+      "time":"14:40"
+    },
+    {
+      "name":"JavaScript e o navegador",
+      "time":"15:00"
+    },
+    {
+      "name":"Projeto Final",
+      "time":"16:00"
     }
-
   ],
 
   "partners":[
