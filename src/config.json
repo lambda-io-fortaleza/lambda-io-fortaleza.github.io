@@ -166,16 +166,26 @@
       "name":"Projeto Final",
       "time":"16:00"
     }
+
   ],
 
   "partners":[
 
     {
+      "name":"Deu Certim",
+      "logo":"img/partners/deucertim.png",
+      "website":"https://www.facebook.com/deucertin?fref=ts"
+    },
+    {
+      "name":"Dev I/O Fortaleza",
+      "logo":"img/partners/dev-io.png",
+      "website":"https://www.facebook.com/groups/fortalezadevelopers/?fref=ts"
+    },
+    {
       "name":"Partner 1",
       "logo":"img/partners/your-logo.jpg",
       "website":"http://js4girls-fortaleza.github.io/media-kit"
     }
-
   ],
 
   "sponsors":[
