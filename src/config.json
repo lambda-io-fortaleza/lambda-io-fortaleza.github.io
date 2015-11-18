@@ -2,14 +2,14 @@
 
   "about":{
 
-    "name":"JS4Girls Fortaleza",
-    "shortDescription":"Evento de ensino de programação web para mulheres.",
-    "longDescription":"O JS4Girls é um modelo de eventos sem fins lucrativos, que ocorrem de forma distribuída por todo o país visando a proporcionar a inclusão de mulheres na tecnologia por meio do ensino de algumas tecnologias-chave por trás do desenvolvimento web.",
-    "date":"17 de Outubro",
+    "name":"I Lambda I/O Fortaleza",
+    "shortDescription":"Evento para promover o paradigma funcional pelo país.",
+    "longDescription":"A Fundação Lambda I/O consiste de uma iniciativa aberta que visa introduzir as pessoas ao redor do mundo a todos os recursos e benefícios de se conhecer o paradigma de programação funcional. \n Nossa missão é desconstruir a doutrinação acerca do ensino de linguagens imperativas que, infelizmente, assola muitos lugares do mundo e, consequentemente, seus sistemas de ensino de TI - desde cursos técnicos a pós-graduações - fornecendo recursos e uma comunidade que tornaria muito mais fácil de se aprender sobre programação funcional, linguagens funcionais, casos de uso etc.",
+    "date":"28 de Novembro",
     "logo":"img/logo.svg",
     "register":{
       "message":"Registre-se agora!",
-      "link":"http://even.tc/js4girls-fortaleza"
+      "link":"http://even.tc/i-lambda-io-meetup-fortaleza"
     },
     "location":{
       "place":"Unifor",
@@ -19,14 +19,14 @@
       "mapsKey":"AIzaSyBA8zmp_Mwlz19cazVlsox7QF-apmKtOQY"
     },
     "site":{
-      "url":"http://js4girls-fortaleza.github.io",
+      "url":"http://lambda-io-fortaleza.github.io",
       "googleAnalytics": "UA-33656081-1"
     },
     "contact":{
       "email":"matheus.brasil10@gmail.com",
       "twitter":"",
-      "facebook":"JS4GirlsFortaleza",
-      "github":"js4girls-fortaleza"
+      "facebook":"lambda.io.fortaleza",
+      "github":"lambda-io-fortaleza"
     }
 
   },
@@ -44,7 +44,7 @@
       },
       {
         "name": "speakers",
-        "label": "Instrutores"
+        "label": "Palestrantes"
       },
       {
         "name": "schedule",
@@ -72,13 +72,13 @@
         "description": "O nosso agradecimento a todos os patrocinadores que fizeram disto possível!",
         "invitation": "Tem interesse em fazer parte de tudo isso?",
         "moreInformation": "Saiba mais",
-        "mediakit": "http://js4girls-fortaleza.github.io/media-kit"
+        "mediakit": "http://lambda-io-fortaleza.github.io/media-kit"
       },
       "partners":{
         "description": "O nosso agradecimento a todos os parceiros que fizeram disto possível!",
         "invitation": "Tem interesse em fazer parte de tudo isso?",
         "moreInformation": "Saiba mais",
-        "mediakit": "http://js4girls-fortaleza.github.io/media-kit"
+        "mediakit": "lambda-io-fortaleza.github.io/media-kit"
       },
       "organizers": "Esse evento é feito por um time de pessoas que querem mudar o mundo!",
       "contact": "Fale com a gente :)",
@@ -91,27 +91,35 @@
   "speakers":[
 
     {
-      "name":"Abraão Alves",
-      "bio":"Empreendedor, desenvolvedor FullStack e palestrante nas horas vagas.",
-      "photo":"img/speakers/abraao.jpg",
-      "company":"Altum",
-      "twitter":"abraao4lves"
+      "name":"Ian Ramos",
+      "bio":"Desenvolvedor fullstack e de jogos nas horas vagas, apaixonado por linguagens de programação e coisas interessantes.",
+      "photo":"img/speakers/ian.jpg",
+      "company":"Deway",
+      "twitter":"IanRamosC"
     },
 
     {
-      "name":"Cícero Viana",
-      "bio":"Estudante de análise de sistemas pela Estácio FIC. Desenvolvedor Web há 7 anos e atualmente entusiasta de MEAN, apps híbridos e Python.",
-      "photo":"img/speakers/cicero.jpg",
-      "company":"Casablanca",
-      "twitter":"cicerohen"
+      "name":"Marcelo Silva",
+      "bio":"",
+      "photo":"img/speakers/marcelo.jpg",
+      "company":"Sistema Ari de Sá",
+      "twitter":""
     },
 
     {
-      "name":"Vitor Alencar",
-      "bio":"Desenvolvedor FrontEnd apaixonado, com foco em tecnologias novas e escaláveis, cofundador do DEV/IO/FOR. Vitor trabalha atualmente como desenvolvedor front-end e mobile na empresa AgendaKids.",
-      "photo":"img/speakers/vitor.jpg",
-      "company":"Agenda Kids",
-      "twitter":"VitorMalencar"
+      "name":"Matheus Brasil",
+      "bio":"Defensor da filosofia UNIX, alquimista da web e sommelier de linguagens de programação. No tempo livre, estuda Informática no IFCE, além de escutar muito rock e indie.",
+      "photo":"img/speakers/matheus.jpg",
+      "company":"The Lambda I/O Foundation",
+      "twitter":"mabrasil_io"
+    },
+
+    {
+      "name":"Vladymir Bezerra",
+      "bio":"Desenvolvedor no GREat, Bacharel em Computação pela UFCG e mestrando pela UFC. Tem amor pela Matemática e Computação.",
+      "photo":"img/speakers/vladymir.jpg",
+      "company":"GREat",
+      "twitter":"vladymirlb"
     }
 
   ],
@@ -123,48 +131,26 @@
       "time":"9:00"
     },
     {
-      "name":"Introdução ao HTML",
-      "time":"9:30"
+      "name":"De volta para o futuro: a importância da programação funcional nos dias atuais",
+      "time":"9:30",
+      "speaker": "Ian Ramos e Matheus Brasil",
+      "description":"Você já parou pra pensar o porquê de algo tão antigo, como programação funcional, estar tão em pauta nos dias de hoje? Embarque nessa viagem onde vamos explicar isso e a importância de usar conceitos funcionais no dia-a-dia."
     },
     {
-      "name":"Introdução à CSS",
-      "time":"10:00"
+      "name":"Aventurando-se com JavaScript funcional",
+      "time":"10:20",
+      "speaker": "Marcelo Silva",
+      "description":"Descrição em breve."
     },
     {
-      "name":"Pausa pra Lanche",
-      "time":"10:30"
+      "name":"Pausa pra Lanche & Networking",
+      "time":"11:10"
     },
     {
-      "name":"Introdução ao Javascript",
-      "time":"10:50"
-    },
-    {
-      "name":"Introdução à Lógica",
-      "time":"11:20"
-    },
-    {
-      "name":"Pausa pra almoço",
-      "time":"11:50"
-    },
-    {
-      "name":"Introdução à Estrutura de Dados",
-      "time":"12:40"
-    },
-    {
-      "name":"Funções",
-      "time":"13:40 "
-    },
-    {
-      "name":"Objetos",
-      "time":"14:40"
-    },
-    {
-      "name":"JavaScript e o navegador",
-      "time":"15:00"
-    },
-    {
-      "name":"Projeto Final",
-      "time":"16:00"
+      "name":"Clojure: Programação Funcional na JVM",
+      "time":"11:30",
+      "speaker": "Vladymir Bezerra",
+      "description":"O interesse em programação funcional tem aumentado nos últimos anos e, atualmente, existem duas linguagens importantes que seguem esse paradigma e que foram criadas para rodar na JVM: Clojure e Scala. Nesta palestra, pretendo mostrar os conceitos básicos da linguagem Clojure, falar um pouco sobre programação funcional e mostrar um exemplo prático no fim."
     }
 
   ],
@@ -184,7 +170,7 @@
     {
       "name":"Partner 1",
       "logo":"img/partners/your-logo.jpg",
-      "website":"http://js4girls-fortaleza.github.io/media-kit"
+      "website":"http://lambda-io-fortaleza.github.io/media-kit"
     }
   ],
 
@@ -193,18 +179,13 @@
     {
       "name":"Sponsor 1",
       "logo":"img/sponsors/your-logo.jpg",
-      "website":"http://js4girls-fortaleza.github.io/media-kit"
+      "website":"http://lambda-io-fortaleza.github.io/media-kit"
     }
 
   ],
 
   "organizers":[
 
-    {
-      "name":"Carlos",
-      "photo":"img/organizers/carlos.jpg",
-      "website":"https://br.linkedin.com/pub/carlos-eduardo-c%C3%A2mara-gomes/95/6a2/ba8"
-    },
     {
       "name":"Ian Ramos",
       "photo":"img/organizers/ian.jpg",
@@ -215,17 +196,11 @@
       "photo":"img/organizers/matheus.jpg",
       "website":"https://github.com/mabrasil"
     },
-        {
-      "name":"Sandy Maciel",
-      "photo":"img/organizers/sandy.jpg",
-      "website":"https://www.linkedin.com/in/sandymaciel"
-    },
     {
       "name":"Wilmerson Silva",
       "photo":"img/organizers/wilmerson.jpg",
       "website":"https://www.linkedin.com/in/wilmersondasilva"
     }
-
   ],
 
   "deploy":{
