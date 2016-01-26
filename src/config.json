@@ -2,14 +2,14 @@
 
   "about":{
 
-    "name":"I Lambda I/O Fortaleza",
+    "name":"II Lambda I/O Fortaleza",
     "shortDescription":"Evento para promover o paradigma funcional pelo país.",
     "longDescription":"A Fundação Lambda I/O consiste de uma iniciativa aberta que visa introduzir as pessoas ao redor do mundo a todos os recursos e benefícios de se conhecer o paradigma de programação funcional. \n Nossa missão é desconstruir a doutrinação acerca do ensino de linguagens imperativas que, infelizmente, assola muitos lugares do mundo e, consequentemente, seus sistemas de ensino de TI - desde cursos técnicos a pós-graduações - fornecendo recursos e uma comunidade que tornaria muito mais fácil de se aprender sobre programação funcional, linguagens funcionais, casos de uso etc.",
-    "date":"28 de Novembro",
+    "date":"30 de Fevereiro",
     "logo":"img/logo.svg",
     "register":{
       "message":"Registre-se agora!",
-      "link":"http://even.tc/i-lambda-io-meetup-fortaleza"
+      "link":"http://even.tc/ii-lambda-io-meetup-fortaleza"
     },
     "location":{
       "place":"Unifor",
@@ -91,35 +91,27 @@
   "speakers":[
 
     {
-      "name":"Ian Ramos",
-      "bio":"Desenvolvedor fullstack e de jogos nas horas vagas, apaixonado por linguagens de programação e coisas interessantes.",
-      "photo":"img/speakers/ian.jpg",
-      "company":"Deway",
-      "twitter":"IanRamosC"
+      "name":"Marlus Saraiva",
+      "bio":"Marlus Saraiva é engenheiro de software na Fortes Tecnologia e consultor independente. Possui 20 anos de experiência no desenvolvendo softwares corporativos utilizando diferentes linguagens e tecnologias incluindo C/C++, PHP, Java, Perl, Ruby e mais recentemente Erlang/Elixir. Tem investido nos últimos anos no paradígma funcional como alternativa viável à já enferrujada, mas ainda onipresente, orientação a objetos.",
+      "photo":"img/speakers/marlus.jpg",
+      "company":"Fortes Tecnologia",
+      "twitter":"MarlusSaraiva"
     },
 
     {
-      "name":"Marcelo Silva",
+      "name":"Schwarzenegger Alves",
+      "bio":"Entusiasta de linguagens funcionais, e programador ruby por profissão, atualmente trabalha na vice governadoria do estado.",
+      "photo":"img/speakers/schwarzenegger.jpg",
+      "company":"Vice-Governadoria do Estado do Ceará",
+      "twitter":"Schwarz_a"
+    },
+
+    {
+      "name":"Abraão Alves",
       "bio":"",
-      "photo":"img/speakers/marcelo.jpg",
-      "company":"Sistema Ari de Sá",
-      "twitter":""
-    },
-
-    {
-      "name":"Matheus Brasil",
-      "bio":"Defensor da filosofia UNIX, alquimista da web e sommelier de linguagens de programação. No tempo livre, estuda Informática no IFCE, além de escutar muito rock e indie.",
-      "photo":"img/speakers/matheus.jpg",
-      "company":"The Lambda I/O Foundation",
-      "twitter":"mabrasil_io"
-    },
-
-    {
-      "name":"Vladymir Bezerra",
-      "bio":"Desenvolvedor no GREat, Bacharel em Computação pela UFCG e mestrando pela UFC. Tem amor pela Matemática e Computação.",
-      "photo":"img/speakers/vladymir.jpg",
-      "company":"GREat",
-      "twitter":"vladymirlb"
+      "photo":"img/speakers/abraao.jpg",
+      "company":"Altum Tecnologia",
+      "twitter":"abraao4lves"
     }
 
   ],
