@@ -108,7 +108,7 @@
 
     {
       "name":"Abraão Alves",
-      "bio":"",
+      "bio":"Desenvolvedor de pessoas e softwares, empreendedor, palestrante nas horas vagas e membro do time oficial de tênis de mesa do IFCE.",
       "photo":"img/speakers/abraao.jpg",
       "company":"Altum Tecnologia",
       "twitter":"abraao4lves"
@@ -123,26 +123,26 @@
       "time":"9:00"
     },
     {
-      "name":"De volta para o futuro: a importância da programação funcional nos dias atuais",
+      "name":"Porque escolher o Elixir como sua próxima linguagem de programação",
       "time":"9:30",
-      "speaker": "Ian Ramos e Matheus Brasil",
-      "description":"Você já parou pra pensar o porquê de algo tão antigo, como programação funcional, estar tão em pauta nos dias de hoje? Embarque nessa viagem onde vamos explicar isso e a importância de usar conceitos funcionais no dia-a-dia."
-    },
-    {
-      "name":"Aventurando-se com JavaScript funcional",
-      "time":"10:20",
-      "speaker": "Marcelo Silva",
-      "description":"Descrição em breve."
+      "speaker": "Marlus Saraiva",
+      "description":"A evolução tecnológica que vem ocorrendo nos últimos anos vem trazendo desafios cada vez mais complexos para os desenvolvedores de softwares. Estamos saindo rapidamente de um modelo single-threaded, monolítico e centralizado para um modelo multi-threaded de microserviços altamente distribuídos e concorrentes. Nesta palestra vou mostrar porque o Elixir e a máquina virtual do Erlang são ideais para este novo cenário e como estas duas tecnologias podem ajudá-lo a produzir softwares de alta performance e escaláveis sem abrir mão da produtividade."
     },
     {
       "name":"Pausa pra Lanche & Networking",
-      "time":"11:10"
+      "time":"10:20"
     },
     {
-      "name":"Clojure: Programação Funcional na JVM",
+      "name":"Phoenix Framework: Do Começo a Produção",
+      "time":"10:40",
+      "speaker": "Schwarzenegger Alves",
+      "description":"Phoenix é um framework Elixir para o desenvolvimento de aplicações web escaláveis. Juntos, vamos explorar ele, indo desde o básico a produção. Você verá princípios deste e como usar ele para escrever poderosas aplicações web."
+    },
+    {
+      "name":"Praticando Funcional com F#",
       "time":"11:30",
-      "speaker": "Vladymir Bezerra",
-      "description":"O interesse em programação funcional tem aumentado nos últimos anos e, atualmente, existem duas linguagens importantes que seguem esse paradigma e que foram criadas para rodar na JVM: Clojure e Scala. Nesta palestra, pretendo mostrar os conceitos básicos da linguagem Clojure, falar um pouco sobre programação funcional e mostrar um exemplo prático no fim."
+      "speaker": "Abraão Alves",
+      "description":"Nessa palestra, serão mostradas técnicas de programação funcional com F# – e como isso pode levar o seu sistema a ter código mais limpo, simples e com menos bugs. Para demonstrar esse ambiente criamos uma aplicação web com direito a builds com o FAKE e instalação pacotes com o Paket."
     }
 
   ],
